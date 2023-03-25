@@ -7,17 +7,17 @@ public class _04_Operator4_230326 {
         boolean b = true;
         boolean c = true;
         System.out.println(a || b || c); // true
-        System.out.println(a && b && c); // ture
+        System.out.println(a && b && c); // true
 
         c = false;
         System.out.println(a || b || c); // true
         System.out.println(a && b && c); // false
 
-        System.out.println((5 > 3) || (3 > 1)); // ture
-        System.out.println((5 > 3) || (3 < 1)); // ture
+        System.out.println((5 > 3) || (3 > 1)); // true
+        System.out.println((5 > 3) || (3 < 1)); // true
         System.out.println((5 < 3) || (3 < 1)); // false
 
-        System.out.println((5 > 3) && (3 > 1)); // ture
+        System.out.println((5 > 3) && (3 > 1)); // true
         System.out.println((5 > 3) && (3 < 1)); // false
         System.out.println((5 < 3) && (3 < 1)); // false
 
