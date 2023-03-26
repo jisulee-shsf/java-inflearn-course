@@ -1,6 +1,6 @@
 package chap_02;
 
-public class _02_assignmentOperator_230326 {
+public class _02_AssignmentOperator_230326 {
     public static void main(String[] args) {
         // 1. 대입 연산자
         int i = 30;
