@@ -1,6 +1,6 @@
 package chap_02;
 
-public class _03_Operator3_230326 {
+public class _03_comparing_operator_230326 {
     public static void main(String[] args) {
         // 비교 연산자
         System.out.println(3 > 1); // true
