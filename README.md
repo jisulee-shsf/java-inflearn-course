@@ -12,12 +12,18 @@
 - _05_Quiz_230325
 ####
 #### ► [chap_02] 연산자
-- _01_arithmetic_operator_230326
-- _02_assignment_operator_230326
-- _03_comparing_operator_230326
-- _04_logical_operator_230326
-- _05_ternary_operator_230326
+- _01_ArithmeticOperator_230326
+- _02_AssignmentOperator_230326
+- _03_ComparingOperator_230326
+- _04_LogicalOperator_230326
+- _05_TernaryOperator_230326
 - _06_Quiz_230326
+####
+#### ► [chap_03] 문자열
+- _01_String1_230327
+- _02_String2_230327
+- _03_EscapeSequence_230327
+- _04_Quiz_230327
 ####
 ## Reference
 - [Inflearn] 나도코딩의 자바 기본편
