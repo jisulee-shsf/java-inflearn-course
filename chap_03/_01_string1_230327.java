@@ -13,11 +13,11 @@ public class _01_string1_230327 {
         System.out.println(s.contains("JAVA")); // false
         System.out.println(s.contains("C#")); // false
 
-        // 3. startsWith() & endsWith: 특정 문자열로 시작 ・ 끝나는지 여부 확인
+        // 3. startsWith() & endsWith(): 특정 문자열로 시작 ・ 끝나는지 여부 확인
         System.out.println(s.startsWith("I")); // true
         System.out.println(s.endsWith("C")); // false
 
-        // 3.indexOf(): 특정 문자열이 시작되는 위치 확인
+        // 4. indexOf(): 특정 문자열이 시작되는 위치 확인
         System.out.println(s.indexOf("Java")); // 7
         System.out.println(s.indexOf("C#")); // -1
 
@@ -28,7 +28,7 @@ public class _01_string1_230327 {
         // 6. replace(): 문자열 치환
         System.out.println(s.replace("C", "C#")); // I like Java and Python and C#.
 
-        // 7. substring() 문자열 자르기
+        // 7. substring(): 문자열 자르기
         System.out.println(s.substring(s.indexOf("Java"))); // Java and Python and C.
         System.out.println(s.substring(s.indexOf("Java"), s.indexOf("."))); // Java and Python and C
 
