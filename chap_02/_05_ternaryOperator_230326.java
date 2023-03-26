@@ -1,6 +1,6 @@
 package chap_02;
 
-public class _05_ternary_operator_230326 {
+public class _05_ternaryOperator_230326 {
     public static void main(String[] args) {
         // 삼항 연산자
         int x = 3;
