@@ -14,7 +14,7 @@ public class _02_string2_230327 {
         System.out.println(s1.equals("java")); // false
         System.out.println(s1.equalsIgnoreCase("java")); // true
 
-        // 2. equals() & == 차이 비교
+        // 2. equals() & == 차이
         // equals() 내용이 동일한지 비교 / == 참조가 동일한지 비교
         String s3 = "Java";
         String s4 = "Java";
