@@ -12,11 +12,11 @@
 - _05_Quiz_230325
 ####
 #### ► [chap_02] 연산자
-- _01_Operator1_230326
-- _02_Operator2_230326
-- _03_Operator3_230326
-- _04_Operator4_230326
-- _05_Operator5_230326
+- _01_arithmetic_operator_230326
+- _02_assignment_operator_230326
+- _03_comparing_operator_230326
+- _04_logical_operator_230326
+- _05_ternary_operator_230326
 - _06_Quiz_230326
 ####
 ## Reference
