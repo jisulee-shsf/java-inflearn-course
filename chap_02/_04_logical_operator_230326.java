@@ -1,6 +1,6 @@
 package chap_02;
 
-public class _04_Operator4_230326 {
+public class _04_logical_operator_230326 {
     public static void main(String[] args) {
         // 1. 논리 연산자
         boolean a = true;
