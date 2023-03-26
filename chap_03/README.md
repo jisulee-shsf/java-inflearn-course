@@ -9,7 +9,7 @@
 - (4) indexOf(): 특정 문자열이 시작되는 위치 확인
 - (5) toUpperCase() & toLowerCase(): 문자열 대소문자 변환
 - (6) replace(): 문자열 치환
-- (7) substring() 문자열 자르기
+- (7) substring(): 문자열 자르기
 - (8) concat(): 문자열 결합 
 - (9) trim(): 문자열 앞뒤 공백 제거
 ####
