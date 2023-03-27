@@ -27,6 +27,7 @@ if (condition1) {
 ##
 #### ► [_05_Switch_230328]
 - if문 보다 더욱 정형화된 조건 판단문인 switch문 실습
+- if ... case문과 차이 비교
 ####
 ``` Java
 switch (expression) {
@@ -43,6 +44,9 @@ switch (expression) {
 ##
 #### ► [_06_For_230328]
 - 정확한 횟수를 반복해서 수행할 때 사용하는 for문 실습
+- (1) 짝수 ・ 홀수 출력
+- (2) 숫자 거꾸로 출력
+- (3) 숫자 총합 출력 
 ``` Java
 for (statement 1; statement 2; statement 3) {
     code block
