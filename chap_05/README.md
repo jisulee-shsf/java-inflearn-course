@@ -14,5 +14,5 @@ for (type variableName : arrayName) {
 ```
 ####
 #### ► [_03_MultiDimensionalArray_230330]
-- 크기가 동일하거나 동일하지 않은 multi-dimensional array 실습
+- 크기가 동일하거나 동일하지 않은 2차원의 multi-dimensional array 실습
 ####
