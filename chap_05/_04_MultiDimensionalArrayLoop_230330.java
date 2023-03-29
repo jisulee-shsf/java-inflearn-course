@@ -1,6 +1,6 @@
 package chap_05;
 
-public class _03_MultiDimensionalArrayLoop_230330 {
+public class _04_MultiDimensionalArrayLoop_230330 {
     public static void main(String[] args) {
         // 1-1. 크기가 같은 2차원 array 순회
         String[][] seats1 = {
