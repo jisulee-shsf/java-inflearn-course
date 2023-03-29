@@ -69,8 +69,8 @@ while (condition);
 ####
 ##
 #### ► [_08_NestedLoop_230329] & [_09_MultipleTable_230329]
-- 반복문 안에 반복문을 배치하는 중첩 반복의 nested loop문 실습
-- nested loop문을 활용한 구구단 만들기 실습
+- 반복문 안에 반복문을 배치하는 중첩 반복의 nested loop 실습
+- nested loop를 활용한 구구단 만들기 실습
 ``` Java
 // outer loop
 for (statement 1; statement 2; statement 3) {
