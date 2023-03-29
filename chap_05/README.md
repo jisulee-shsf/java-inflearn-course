@@ -21,5 +21,6 @@ for (type variableName : arrayName) {
 - [ASCII(American Standard Code for Information Interchange)](https://ko.wikipedia.org/wiki/ASCII)
 ####
 #### ► [_06_Quiz_230330]
-- 
+- 쇼핑몰에서 구매 가능한 신발 사이즈 옵션을 출력하는 프로그램 작성하기
+- array의 선언 ・ 초기화 및 for문 ・ for-each문 출력을 통한 풀이 진행 
 ####
