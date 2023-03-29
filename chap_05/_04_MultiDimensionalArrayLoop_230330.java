@@ -2,7 +2,7 @@ package chap_05;
 
 public class _03_MultiDimensionalArrayLoop_230330 {
     public static void main(String[] args) {
-        // 1-1. 가로 세로 크기가 같은 2차원 array 순회
+        // 1-1. 크기가 같은 2차원 array 순회
         String[][] seats1 = {
                 {"a1", "a2", "a3", "a4", "a5"},
                 {"b1", "b2", "b3", "b4", "b5"},
@@ -23,7 +23,7 @@ public class _03_MultiDimensionalArrayLoop_230330 {
         순회 종료 #1
         */
 
-        // 1-2. 가로 세로 크기가 다른 2차원 array 순회
+        // 1-2. 크기가 다른 2차원 array 순회
         String[][] seats2 = {
                 {"a1", "a2", "a3"},
                 {"b1", "b2", "b3", "b4"},
@@ -44,7 +44,7 @@ public class _03_MultiDimensionalArrayLoop_230330 {
         순회 종료 #2
         */
 
-        // 2-1. 2차원 array 생성 및 순회
+        // 2. 2차원 array 선언 ・ 초기화 ・ 순회 ・ 업데이트 후 출력
         String[][] seats3 = new String[10][15];
         String[] eng = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"};
         for (int i = 0; i < seats3.length; i++) {
@@ -74,7 +74,6 @@ public class _03_MultiDimensionalArrayLoop_230330 {
         순회 종료 #3
         */
 
-        // 2-2. 2차원 array 값 업데이트 후 순회
         seats3[3][7] = "__"; // d8 -> __
         seats3[3][8] = "__"; // d9 -> __
 
