@@ -1,6 +1,6 @@
 package chap_05;
 
-public class _03_MultiDimensionalArrays_230330 {
+public class _03_MultiDimensionalArray_230330 {
     public static void main(String[] args) {
         // 1. 1차원 array
         String[] seatsA = new String[] {"a1", "a2", "a3", "a4", "a5"};
