@@ -27,7 +27,7 @@ public class _02_ArrayLoop_230329 {
         주세요. #2
         */
 
-        // 3. for-each 반복문 -> 배열의 모든 요소를 순회하며 작업하는 경우
+        // 3. for-each문 -> array의 모든 요소를 순회하며 작업하는 경우
         for (String coffee : coffees) {
             System.out.println(coffee + " 한 잔");
         }
