@@ -72,10 +72,10 @@ while (condition);
 - 반복문 안에 반복문을 배치하는 중첩 반복의 nested loop문 실습
 - nested loop문을 활용한 구구단 만들기 실습
 ``` Java
-// Outer loop
+// outer loop
 for (statement 1; statement 2; statement 3) {
     // code block
-    // Inner loop
+    // inner loop
     for (statement 1; statement 2; statement 3) {
         // code block
     }
