@@ -13,6 +13,6 @@ for (type variableName : arrayName) {
 }
 ```
 ####
-#### ► [_03_MultiDimensionalArray_230330]
-- 크기가 동일하거나 동일하지 않은 2차원의 multi-dimensional array 실습
+#### ► [_03_MultiDimensionalArray_230330] & [_04_MultiDimensionalArrayLoop_230330]
+- 크기가 동일하거나 동일하지 않은 2차원 multi-dimensional array의 선언 ・ 초기화 ・ 순회 ・ 업데이트 후 출력 실습
 ####
