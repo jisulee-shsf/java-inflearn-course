@@ -14,5 +14,12 @@ for (type variableName : arrayName) {
 ```
 ####
 #### ► [_03_MultiDimensionalArray_230330] & [_04_MultiDimensionalArrayLoop_230330]
-- 크기가 동일하거나 동일하지 않은 2차원 multi-dimensional array의 선언 ・ 초기화 ・ 순회 ・ 업데이트 후 출력 실습
+- 크기가 동일하거나 또는 동일하지 않은 2차원 multi-dimensional array의 선언 ・ 초기화 ・ 순회 ・ 업데이트 후 출력 실습
+####
+#### ► [_05_ASCII_230330]
+- 정보 교환용 7비트 부호체계인 아스키 코드를 사용해 더욱 간결한 2차원 multi-dimensional array의 선언 ・ 초기화 실습
+- [ASCII(American Standard Code for Information Interchange)](https://ko.wikipedia.org/wiki/ASCII)
+####
+#### ► [_06_Quiz_230330]
+- 
 ####
