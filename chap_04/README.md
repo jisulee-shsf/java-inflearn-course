@@ -85,11 +85,19 @@ for (statement 1; statement 2; statement 3) {
 ##
 #### ► [_10_Break_230329] & [_11_Continue_230329]
 - 반복문 내에 지정된 조건이 참일 경우, 반복문을 벗어날 수 있는 break 실습
-- 반복문 내에 지정된 조건이 참인 경우, 하나의 반복은 건너뛰고 다음 반복을 계속하는 countinue 실습
+- 반복문 내에 지정된 조건이 참인 경우, 하나의 반복은 건너뛰고 다음 반복을 계속하는 continue 실습
 ``` Java
 for (statement 1; statement 2; statement 3) {
     if (condition) {
         break;
+    }
+    // code block
+}
+```
+``` Java
+for (statement 1; statement 2; statement 3) {
+    if (condition) {
+        continue;
     }
     // code block
 }
