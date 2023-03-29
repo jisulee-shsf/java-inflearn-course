@@ -30,7 +30,7 @@ public class _07_While_230328 {
         ...
         */
 
-        //2. do/while문
+        //2. do-while문
         move = 0;
         int step = 3;
         while (move + step < height) {
