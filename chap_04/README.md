@@ -17,11 +17,11 @@
 
 ``` Java
 if (condition1) {
-    code block
+    // code block
 } else if (condition2) {
-    code block
+    // code block
 } else {
-    code block
+    // code block
 }
 ```
 ##
@@ -32,13 +32,13 @@ if (condition1) {
 ``` Java
 switch (expression) {
     case x:
-        code block
+        // code block
         break;
     case y:
-        code block
+        // code block
         break;
     default:
-        code block
+        // code block
 }
 ```
 ##
@@ -49,7 +49,7 @@ switch (expression) {
 - (3) 숫자 총합 출력 
 ``` Java
 for (statement 1; statement 2; statement 3) {
-    code block
+    // code block
 }
 ```
 ####
@@ -59,12 +59,12 @@ for (statement 1; statement 2; statement 3) {
 - 조건이 참인지 확인하기 전 한 번 실행한 후, 조건이 참인 동안 결과를 반복해서 수행하는 do-while문 실습
 ``` Java
 while (condition) {
-    code block
+    // code block
 }
 ```
 ``` Java
 do {
-    code block
+    // code block
 }
 while (condition);
 ```
@@ -76,10 +76,10 @@ while (condition);
 ``` Java
 // Outer loop
 for (statement 1; statement 2; statement 3) {
-    code block
+    // code block
     // Inner loop
     for (statement 1; statement 2; statement 3) {
-        code block
+        // code block
     }
 } 
 ```
@@ -93,7 +93,7 @@ for (statement 1; statement 2; statement 3) {
     if (condition) {
         break;
     }
-    code block
+    // code block
 }
 ```
 ####
