@@ -49,7 +49,7 @@ public class _05_ASCII_230330 {
         순회 종료 #1
         */
 
-        // 2-2. 아스키 코드한 경우
+        // 2-2. 아스키 코드를 사용한 경우
         String[][] seats2 = new String[10][15];
         char c = 'a';
         for (int i = 0; i < seats2.length; i++) {
