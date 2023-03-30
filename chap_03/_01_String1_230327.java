@@ -5,19 +5,19 @@ public class _01_String1_230327 {
         String s = "I like Java and Python and C.";
         System.out.println(s); // I like Java and Python and C.
 
-        // 1. length(): 문자열 길이 확인
+        // 1. length(): 문자열 길이 반환
         System.out.println(s.length()); // 29
 
-        // 2. contains(): 특정 문자열 포함 여부 확인
+        // 2. contains(): 특정 문자열 포함 여부 반환
         System.out.println(s.contains("Java")); // true
         System.out.println(s.contains("JAVA")); // false
         System.out.println(s.contains("C#")); // false
 
-        // 3. startsWith() & endsWith(): 특정 문자열로 시작 ・ 끝나는지 여부 확인
+        // 3. startsWith() & endsWith(): 특정 문자열로 시작 또는 끝나는지 여부 반환
         System.out.println(s.startsWith("I")); // true
         System.out.println(s.endsWith("C")); // false
 
-        // 4. indexOf(): 특정 문자열이 시작되는 위치 확인
+        // 4. indexOf(): 특정 문자열이 시작되는 위치 반환
         System.out.println(s.indexOf("Java")); // 7
         System.out.println(s.indexOf("C#")); // -1
 
