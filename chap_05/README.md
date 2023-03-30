@@ -6,7 +6,9 @@
 ####
 #### ► [_02_ArrayLoop_230329]
 - for문의 반복을 통해 배열의 길이만큼 순회하는 array loop 실습
-- 기존 for문보다 더 간편하게 배열에 접근할 수 있는 for-each문 실습
+- 배열의 모든 값을 순회하는데 매우 유용한 for-each문 실습
+- (1) for문: 인덱스 값을 활용한 처리가 필요한 경우에 적합
+- (2) for-each문: 배열의 모든 값을 순회하며 처리가 필요한 경우에 적합
 ``` Java
 for (type variableName : arrayName) {
     // code block
@@ -14,13 +16,12 @@ for (type variableName : arrayName) {
 ```
 ####
 #### ► [_03_MultiDimensionalArray_230330] & [_04_MultiDimensionalArrayLoop_230330]
-- 크기가 동일하거나 또는 동일하지 않은 2차원 multi-dimensional 배열의 선언 ・ 초기화 ・ 순회 ・ 업데이트 후 출력 실습
+- 크기가 같거나 다른 2차원 배열의 선언 ・ 초기화 ・ 순회 ・ 출력 실습
 ####
 #### ► [_05_ASCII_230330]
-- 정보 교환용 7비트 부호체계인 아스키 코드를 사용해 더욱 간결한 2차원 multi-dimensional 배열의 선언 ・ 초기화 실습
+- 정보 교환용 7비트 부호 체계인 아스키 코드를 사용해 더욱 간결한 2차원 배열의 선언 ・ 초기화 ・ 순회 ・ 출력 실습
 - [ASCII(American Standard Code for Information Interchange)](https://ko.wikipedia.org/wiki/ASCII)
 ####
 #### ► [_06_Quiz_230330]
-- 쇼핑몰에서 구매 가능한 신발 사이즈 옵션을 출력하는 프로그램 작성하기
-- 배열의 선언 ・ 초기화 및 for문 ・ for-each문 출력을 통한 풀이 진행 
+- 쇼핑몰에서 구매 가능한 신발 사이즈 옵션을 출력하는 프로그램 작성
 ####
