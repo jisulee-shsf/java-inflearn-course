@@ -1,14 +1,13 @@
 package chap_06;
 
 public class _02_Parameter_230330 {
-    // 1. 매개변수(Parameter)가 1개인 경우
-    public static void power(int number) {
+    // 1. 메소드 정의
+    public static void power(int number) { // 1개의 파라미터가 있는 경우
         int result1 = number * number;
         System.out.println(number + "의 2승은 " + result1 + "입니다.");
     }
 
-    // 2. 매개변수(Parameter)가 2개인 경우
-    public static void powerByExp(int number, int exponent) {
+    public static void powerByExp(int number, int exponent) { // 2개의 파라미터가 있는 경우
         int result2 = 1;
         for (int i = 0; i < exponent; i++) {
             result2 *= number;
@@ -16,6 +15,7 @@ public class _02_Parameter_230330 {
         System.out.println(number + "의 " + exponent + "승은 " + result2 + "입니다.");
     }
 
+    // 2. 메소드 호출
     public static void main(String[] args) {
         power(2); // 2의 2승은 4입니다.
         power(4); // 4의 2승은 16입니다.
