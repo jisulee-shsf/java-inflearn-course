@@ -1,10 +1,11 @@
 package chap_05;
 
-// Q. 쇼핑몰에서 구매 가능한 신발 사이즈 옵션을 출력하는 프로그램 작성하기
+// 쇼핑몰에서 구매 가능한 신발 사이즈 옵션을 출력하는 프로그램 작성
 
 /*
-1) 신발 사이즈는 250부터 295까지 5씩 증가
-2) 신발 사이즈 수는 총 10가지
+설명) 
+신발 사이즈는 250부터 295까지 5씩 증가
+신발 사이즈 수는 총 10가지
 
 예시)
 사이즈 250 (재고 있음)
@@ -18,17 +19,18 @@ package chap_05;
 
 public class _06_Quiz_230330 {
     public static void main(String[] args) {
-        // 1. array 선언 및 초기화
+        // 1. 배열 선언 및 초기화
         int[] sizeArray = new int[10];
-        for (int i = 0; i < sizeArray.length; i++) {
+        
+        for (int i = 0; i < sizeArray.length; i++) { // 사이즈 증가
             sizeArray[i] = 250 + (5 * i);
         }
 
-        // 2-1. for문 출력
+        // 2-1. for문 순회 및 출력
         for (int i = 0; i < sizeArray.length; i++) {
             System.out.println("사이즈 " + sizeArray[i] + " (재고 있음)");
         }
-        System.out.println("출력 완료 #1");
+        System.out.println("출력 완료 #2-1");
         /*
         사이즈 250 (재고 있음)
         사이즈 255 (재고 있음)
@@ -40,14 +42,14 @@ public class _06_Quiz_230330 {
         사이즈 285 (재고 있음)
         사이즈 290 (재고 있음)
         사이즈 295 (재고 있음)
-        출력 완료 #1
+        출력 완료 #2-1
         */
 
-        // 2-2. for-each문 출력
+        // 2-2. for-each문 순회 및 출력
         for (int size : sizeArray) {
             System.out.println("사이즈 " + size + " (재고 있음)");
         }
-        System.out.println("출력 완료 #2");
+        System.out.println("출력 완료 #2-2");
         /*
         사이즈 250 (재고 있음)
         사이즈 255 (재고 있음)
@@ -59,7 +61,7 @@ public class _06_Quiz_230330 {
         사이즈 285 (재고 있음)
         사이즈 290 (재고 있음)
         사이즈 295 (재고 있음)
-        출력 완료 #2
+        출력 완료 #2-2
         */
     }
 }
