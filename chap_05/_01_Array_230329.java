@@ -29,7 +29,7 @@ public class _01_Array_230329 {
         String coffees2[] = new String[3];
         coffees2[0] = "americano";
         coffees2[1] = "latte";
-        coffees3[2] = "mocha";
+        coffees2[2] = "mocha";
 
         String[] coffees3 = new String[] {"americano", "latte", "mocha"};
 
