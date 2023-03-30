@@ -1,7 +1,7 @@
 package chap_06;
 
 public class _03_Return_230330 {
-    // 1. 메소드 정의
+    // 1. 메소드 정의(리턴 포함)
     public static String getAddress() {
         String address = "서울시 중구 000";
         return address;
