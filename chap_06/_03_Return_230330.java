@@ -21,11 +21,11 @@ public class _03_Return_230330 {
 
     public static void main(String[] args) {
         // 2-1. 사무실 주소 리턴값
-        String officeAddress = getAddress();
+        String officeAddress = getAddress(); // 리턴값을 받아 저장하기 위한 변수 정의
         System.out.println("사무실 주소: " + officeAddress); // 사무실 주소: 서울시 중구 000
 
         // 2-2. 사무실 우편번호 리턴값
-        int officeZipCode = getZipCode();
+        int officeZipCode = getZipCode(); // 리턴값을 받아 저장하기 위한 변수 정의
         System.out.println("사무실 우편번호: " + officeZipCode); // 사무실 우편번호: 12345
 
         // 2-3. 사무실 전화번호 리턴값
