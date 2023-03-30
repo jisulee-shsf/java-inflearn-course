@@ -34,7 +34,7 @@ public class _05_ASCII_230330 {
             }
             System.out.println();
         }
-        System.out.println("순회 종료 #1");
+        System.out.println("순회 종료 #2-1");
         /*
         a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15
         b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15
@@ -46,7 +46,7 @@ public class _05_ASCII_230330 {
         h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15
         i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15
         j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j11 j12 j13 j14 j15
-        순회 종료 #1
+        순회 종료 #2-1
         */
 
         // 2-2. 아스키 코드를 사용한 경우
@@ -65,7 +65,7 @@ public class _05_ASCII_230330 {
             }
             System.out.println();
         }
-        System.out.println("순회 종료 #2");
+        System.out.println("순회 종료 #2-2");
         /*
         a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15
         b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15
@@ -77,7 +77,7 @@ public class _05_ASCII_230330 {
         h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15
         i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15
         j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j11 j12 j13 j14 j15
-        순회 종료 #2
+        순회 종료 #2-2
         */
     }
 }
