@@ -1,7 +1,7 @@
 package chap_06;
 
 public class _04_ParameterAndReturn_230330 {
-    // 1. 매개변수와 리턴값이 있는 메소드 정의
+    // 1. 메소드 정의(매개변수 + 리턴)
     public static int getPower(int number) {
         int result = number * number;
         return result;
@@ -14,9 +14,9 @@ public class _04_ParameterAndReturn_230330 {
         }
         return result;
     }
-
+    
+    // 2. 메소드 호출
     public static void main(String[] args) {
-        // 2. 매개변수와 리턴값이 있는 메소드 호출
         int resultValue1 = getPower(2);
         System.out.println(resultValue1); // 4
         System.out.println(getPower(2)); // 4
