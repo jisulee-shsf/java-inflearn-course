@@ -19,24 +19,24 @@ public class _02_ArrayLoop_230329 {
         for (int i = 0; i < coffees.length; i++) {
             System.out.println(coffees[i] + " 한 잔");
         }
-        System.out.println("주세요. #2");
+        System.out.println("주세요. #2-1");
         /*
         americano 한 잔
         latte 한 잔
         mocha 한 잔
-        주세요. #2
+        주세요. #2-1
         */
 
         // 2-2. for-each문으로 배열을 순회하는 경우
         for (String coffee : coffees) {
             System.out.println(coffee + " 한 잔");
         }
-        System.out.println("주세요. #3");
+        System.out.println("주세요. #2-2");
         /*
         americano 한 잔
         latte 한 잔
         mocha 한 잔
-        주세요. #3
+        주세요. #2-2
         */
     }
 }
