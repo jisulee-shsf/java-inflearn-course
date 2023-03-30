@@ -1,7 +1,6 @@
 package chap_06;
 
 public class _05_MethodOverloading_230331 {
-
     // 1-1. 기본 메소드
     public static int getPower(int number) {
         int result1 = number * number;
