@@ -2,6 +2,7 @@ package chap_01;
 
 public class _04_TypeCasting_230325 {
     public static void main(String[] args) {
+        // 1. 숫자형의 형변환
         // 1-1. 정수 -> 실수 변환
         int i = 80;
         System.out.println((float) i); // 80 -> 80.0
@@ -18,12 +19,12 @@ public class _04_TypeCasting_230325 {
         System.out.println(i); // 80
         i = 30 + (int) 50.5;
         System.out.println(i); // 30 + 50.5 -> 30 + 50 = 80
-
         d = 30 + 50;
         System.out.println(d); // 80.0
         d = 30 + 50.5; // = (double) 30 + 50.5
         System.out.println(d); // 30.0 + 50.5 = 80.5
 
+        // 2. 숫자형의 자동 형변환 & 수동 형변환
         // 2-1. 자동 형변환(int -> long -> float -> double)
         double intToDouble = i;
         System.out.println(intToDouble); // 80 -> 80.0
@@ -32,6 +33,7 @@ public class _04_TypeCasting_230325 {
         int doubleToInt = (int) d;
         System.out.println(doubleToInt); // 80.5 -> 80
 
+        // 3. 숫자형과 문자열의 형변환
         // 3-1. 숫자형(정수) -> 문자열 변환
         String s1 = String.valueOf(90);
         System.out.println(s1); // 90 -> "90"
@@ -57,7 +59,6 @@ public class _04_TypeCasting_230325 {
         // 3-5. 숫자형이 아닌 문자열의 변환
         i = Integer.parseInt("자바");
         System.out.println(i); // error
-
         d = Double.parseDouble("자바");
         System.out.println(d); // error
     }
