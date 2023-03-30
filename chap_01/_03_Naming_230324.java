@@ -6,7 +6,7 @@ public class _03_Naming_230324 {
         1. 변수
             1) 저장 값에 어울리는 이름 사용
             2) 한 개 또는 두 개 이상의 단어를 연속해 사용
-            3) 소문자로 시작하며, 첫 단어 외 단어의 시작은 대문자 사용
+            3) 소문자로 시작하는 첫 단어 외 단어의 시작은 대문자 사용
             4) 숫자 외 밑줄(_) 및 문자(abc)로 시작
             5) 공백 외 밑줄(_), 문자(abc), 숫자(123) 사용
             6) 예약어(public, static, ...) 사용 불가
@@ -21,14 +21,13 @@ public class _03_Naming_230324 {
         String flightNo = "KE123";
         String _flightNo = "KE123";
         String flight_No = "KE123";
-        
         int i = 10;
         String s = "10";
         String str = "10";
 
         /* 2. 상수
-            1) 예약어 final & 대문자 사용
-            2) 두 개 이상의 단어의 경우, 밑줄(_)로 구분
+            1) 예약어 final 및 대문자 사용
+            2) 두 개 이상의 단어는 밑줄(_)로 구분
          */
         final String CODE = "KR"; // CODE = "US" 변경 불가
         final String KR_COUNTRY_CODE = "+82";
