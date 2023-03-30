@@ -47,6 +47,15 @@
 - _05_ASCII_230330
 - _06_Quiz_230330
 ####
+#### ► [chap_06] 메소드
+- _01_Method_230330
+- _02_Parameter_230330
+- _03_Return_230330
+- _04_ParameterAndReturn_230330
+- _05_MethodOverloading_230331
+- _06_MainMethod_230331
+- _07_Quiz_230331
+####
 ## Reference
 - [Inflearn] 나도코딩의 자바 기본편
 - [W3Schools] Java
