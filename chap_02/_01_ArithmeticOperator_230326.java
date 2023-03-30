@@ -51,7 +51,6 @@ public class _01_ArithmeticOperator_230326 {
         System.out.println("현재 대기 인원은 " + waiting++ + "명입니다."); // 1
         System.out.println("현재 대기 인원은 " + waiting++ + "명입니다."); // 2
         System.out.println("현재 총 대기 인원은 " + waiting + "명입니다."); // 3
-
         /*
         현재 대기 인원은 0명입니다.
         현재 대기 인원은 1명입니다.
