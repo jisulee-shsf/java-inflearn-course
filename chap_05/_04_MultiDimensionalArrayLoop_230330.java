@@ -2,7 +2,7 @@ package chap_05;
 
 public class _04_MultiDimensionalArrayLoop_230330 {
     public static void main(String[] args) {
-        // 1-1. 크기가 같은 2차원 array 순회
+        // 1-1. 크기가 같은 2차원 배열 순회
         String[][] seats1 = {
                 {"a1", "a2", "a3", "a4", "a5"},
                 {"b1", "b2", "b3", "b4", "b5"},
@@ -15,15 +15,15 @@ public class _04_MultiDimensionalArrayLoop_230330 {
             }
             System.out.println();
         }
-        System.out.println("순회 종료 #1");
+        System.out.println("순회 종료 #1-1");
         /*
         a1 a2 a3 a4 a5
         b1 b2 b3 b4 b5
         c1 c2 c3 c4 c5
-        순회 종료 #1
+        순회 종료 #1-1
         */
 
-        // 1-2. 크기가 다른 2차원 array 순회
+        // 1-2. 크기가 다른 2차원 배열 순회
         String[][] seats2 = {
                 {"a1", "a2", "a3"},
                 {"b1", "b2", "b3", "b4"},
@@ -36,15 +36,15 @@ public class _04_MultiDimensionalArrayLoop_230330 {
             }
             System.out.println();
         }
-        System.out.println("순회 종료 #2");
+        System.out.println("순회 종료 #1-2");
         /*
         a1 a2 a3
         b1 b2 b3 b4
         c1 c2 c3 c4 c5
-        순회 종료 #2
+        순회 종료 #1-2
         */
 
-        // 2. 2차원 array 선언 ・ 초기화 ・ 순회 ・ 업데이트 후 출력
+        // 2. 2차원 배열 선언 ・ 초기화 ・ 순회 ・ 출력
         String[][] seats3 = new String[10][15];
         String[] eng = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"};
         for (int i = 0; i < seats3.length; i++) {
@@ -59,7 +59,7 @@ public class _04_MultiDimensionalArrayLoop_230330 {
             }
             System.out.println();
         }
-        System.out.println("순회 종료 #3");
+        System.out.println("순회 종료 #2-1");
         /*
         a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15
         b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15
@@ -71,11 +71,11 @@ public class _04_MultiDimensionalArrayLoop_230330 {
         h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15
         i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15
         j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j11 j12 j13 j14 j15
-        순회 종료 #3
+        순회 종료 #2-1
         */
 
-        seats3[3][7] = "__"; // d8 -> __
-        seats3[3][8] = "__"; // d9 -> __
+        seats3[3][7] = "__"; // d8 -> __ 업데이트
+        seats3[3][8] = "__"; // d9 -> __ 업데이트
 
         for (int i = 0; i < seats3.length; i++) {
             for (int j = 0; j < seats3[i].length; j++) {
@@ -83,7 +83,7 @@ public class _04_MultiDimensionalArrayLoop_230330 {
             }
             System.out.println();
         }
-        System.out.println("순회 종료 #4");
+        System.out.println("순회 종료 #2-2");
         /*
         a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15
         b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15
@@ -95,7 +95,7 @@ public class _04_MultiDimensionalArrayLoop_230330 {
         h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15
         i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i11 i12 i13 i14 i15
         j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j11 j12 j13 j14 j15
-        순회 종료 #4
+        순회 종료 #2-2
         */
     }
 }
