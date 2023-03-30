@@ -18,7 +18,7 @@ public class _03_EscapeSequence_230327 {
         // 3. \\: 역슬래시
         System.out.println("C:\\Program Files\\Java"); // C:\Program Files\Java
 
-        // 4. \\" & \\': 큰따옴표 / 작은따옴표
+        // 4. \" & \': 큰따옴표 / 작은따옴표
         System.out.println("그녀는 \"자바는 재밌어\"라고 말했습니다."); // 그녀는 "자바는 재밌어"라고 말했습니다.
         System.out.println("그녀가 가장 좋아하는 것은 \'자바\'이다."); // 그녀가 가장 좋아하는 것은 '자바'이다.
 
