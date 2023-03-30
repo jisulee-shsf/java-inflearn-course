@@ -24,7 +24,7 @@ public class _04_TypeCasting_230325 {
         d = 30 + 50.5; // = (double) 30 + 50.5
         System.out.println(d); // 30.0 + 50.5 = 80.5
 
-        // 2. 숫자형의 자동 형변환 & 수동 형변환
+        // 2. 숫자형의 자동 형변환 및 수동 형변환
         // 2-1. 자동 형변환(int -> long -> float -> double)
         double intToDouble = i;
         System.out.println(intToDouble); // 80 -> 80.0
