@@ -5,7 +5,7 @@ public class _05_Switch_230328 {
         int ranking = 2;
         int scholarship = 100;
 
-        // 1. if ... else문
+        // 1. if-else if문
         if (ranking == 1) {
             System.out.println(ranking + "위 입상자는 " + (scholarship += 200) + "만원의 장학금을 수여받습니다.");
         } else if (ranking == 2 || ranking == 3) {
