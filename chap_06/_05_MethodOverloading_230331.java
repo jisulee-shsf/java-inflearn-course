@@ -1,8 +1,8 @@
 package chap_06;
 
 public class _05_MethodOverloading_230331 {
-    // 1. 메소드 정의(메소드 오버로딩)
-    public static int getPower(int number) { // 기본 메소드
+    // 1. 메서드 정의(메서드 오버로딩)
+    public static int getPower(int number) { // 기본 메서드
         int result1 = number * number;
         return result1;
     }
@@ -21,9 +21,9 @@ public class _05_MethodOverloading_230331 {
         return result3;
     }
 
-    // 2. 메소드 호출
+    // 2. 메서드 호출
     public static void main(String[] args) {
-        int power1 = getPower(2); // 기본 메소드
+        int power1 = getPower(2); // 기본 메드
         System.out.println(power1); // 4
 
         int power2 = getPower("2"); // 매개변수 타입이 다른 경우
