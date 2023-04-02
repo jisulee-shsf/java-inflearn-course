@@ -4,7 +4,7 @@ import chap_07.Safety.Feature1;
 import chap_07.Safety.Feature2;
 import chap_07.Safety.Feature3;
 
-public class _14_polymorphism_230402 {
+public class _14_Polymorphism_230402 {
     public static void main(String[] args) {
         // 1. IS-A
         // Feature2 extends Feature1 -> Feature2 is a Feature1.
