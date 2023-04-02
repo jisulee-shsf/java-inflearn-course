@@ -3,7 +3,7 @@ package chap_07;
 import chap_07.Safety.Feature2;
 import chap_07.Safety.Feature3;
 
-public class _15_Super_230402 {
+public class _15_Super_230403 {
     public static void main(String[] args) {
         // 1. 클래스 객체 생성
         Feature2 f2 = new Feature2();
