@@ -10,7 +10,6 @@ public class _06_ClassMethod_230401 {
 
         // 2. 클래스 메서드 호출(객체 생성없이 클래스 메서드 호출)
         Phone.useSafetyFeatures(); // 안전 기능을 시작합니다.
-
     }
 }
 
