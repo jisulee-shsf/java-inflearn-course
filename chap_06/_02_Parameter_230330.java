@@ -15,7 +15,7 @@ public class _02_Parameter_230330 {
         System.out.println(number + "의 " + exponent + "승은 " + result2 + "입니다.");
     }
 
-    // 2. 메드 호출
+    // 2. 메서드 호출
     public static void main(String[] args) {
         power(2); // 2의 2승은 4입니다.
         power(4); // 4의 2승은 16입니다.
