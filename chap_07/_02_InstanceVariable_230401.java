@@ -27,4 +27,5 @@ public class Phone {
     int modelCapacity; // 모델 용량
     int modelPrice; // 모델 가격
     int modelNumber; // 모델 번호
+}
 */
