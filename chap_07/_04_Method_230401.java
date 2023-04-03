@@ -1,6 +1,7 @@
 package chap_07;
 
-public class _04_Method_230401 {
+public class
+_04_Method_230401 {
     public static void main(String[] args) {
         // 1. 클래스 객체 생성
         Phone p = new Phone();
@@ -9,7 +10,7 @@ public class _04_Method_230401 {
         p.modelName = "자바폰";
         System.out.println(p.modelName); // 자바폰
 
-        // 2. 메서드 호출
+        // 3. 메서드 호출
         p.canCrashDetection1(); // 충돌이 감지되었습니다.
         p.canCrashDetection2(1); // 충돌이 감지되었습니다.
         int objectCount = p.crashDetection3(1);
@@ -18,8 +19,9 @@ public class _04_Method_230401 {
 }
 
 /*
+// 메서드 정의
 public class Phone {
-    // 1. 기본 메서드 정의 
+    // 1. 기본 메서드 정의
     void canCrashDetection1() {
         System.out.println("충돌이 감지되었습니다.");
     }
