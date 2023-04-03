@@ -1,7 +1,7 @@
 package chap_06;
 
 public class _04_ParameterAndReturn_230330 {
-    // 1. 메서드 정의(매개변수 & 리턴 포함)
+    // 1. 메서드 정의
     public static int getPower(int number) {
         int result = number * number;
         return result;
