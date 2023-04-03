@@ -1,7 +1,7 @@
 package chap_06;
 
 public class _05_MethodOverloading_230331 {
-    // 1. 메서드 정의(메서드 오버로딩)
+    // 1. 메서드 정의
     public static int getPower(int number) { // 기본 메서드
         int result1 = number * number;
         return result1;
