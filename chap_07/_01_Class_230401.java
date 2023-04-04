@@ -2,7 +2,7 @@ package chap_07;
 
 public class _01_Class_230401 {
     public static void main(String[] args) {
-        // 1. 기존 데이터 및 함수 생성 방식
+        // 1. 기존 생성 방식
         String modelName1 = "자바폰1";
         String modelType1 = "프로";
         
