@@ -1,45 +1,154 @@
 package chap_07;
 
-import chap_07.Safety.Feature1; // 부모 클래스
-import chap_07.Safety.Feature2; // 자식 클래스
-import chap_07.Safety.Feature3; // 자식 클래스
+import chap_07.Safety.*;
 
 public class _12_Inheritance_230402 {
     public static void main(String[] args) {
         // 1. 클래스 객체 생성 및 호출
-        Feature1 f1 = new Feature1();
-        Feature2 f2 = new Feature2();
-        Feature3 f3 = new Feature3();
+        inheritance1 i1 = new inheritance1();
+        inheritance2 i2 = new inheritance2();
+        inheritance3 i3 = new inheritance3();
 
-        System.out.println(f1.modelName);
-        System.out.println(f2.modelName);
-        System.out.println(f3.modelName);
-        /*
-        안전1
-        안전2
-        안전3
-        */
+        System.out.println(i1.modelName); // 안전1
+        System.out.println(i2.modelName); // 안전2
+        System.out.println(i3.modelName); // 안전3
 
-        // 2-1. Feature1 클래스 상속 전
+        // 2. 메소드 호출(상속 전)
         // Feature1 -> System.out.println("featureA")
-        f1.featureA();
-        f2.featureA();
-        f3.featureA();
+        i1.feature1();
+        i2.feature2();
+        i3.feature3();
         /*
-        featureA
-        featureA
-        featureA
+        안전1: feature1입니다.
+        안전2: feature2입니다.
+        안전3: feature3입니다.
         */
 
-        // 2-2. Feature1 클래스 상속 후 -> 변동 없음 확인
-        // Feature1 -> System.out.println(this.modelName + ": featureA")
-        f1.featureA();
-        f2.featureA();
-        f3.featureA();
+        System.out.println();
+
+        // 3-1. 메소드 호출(상속 후)
+        i1.feature1();
+        i2.feature2();
+        i3.feature3();
         /*
-        안전1: featureA
-        안전2: featureA
-        안전3: featureA
+        안전1: feature1입니다.
+        안전2: feature2입니다.
+        안전3: feature3입니다.
+        */
+
+        // 3-2. 메소드 호출(자식 클래스)
+        i2.feature2();
+        i3.feature3();
+        /*
+        안전2: feature2입니다.
+        안전3: feature3입니다.
         */
     }
 }
+
+/*
+// 상속 전
+public class inheritance1 {
+    // 1-1. 인스턴스 변수 선언
+    public String modelName;
+
+    // 1-2. 생성자 정의
+    public inheritance1() {
+        // 인스턴스 변수 초기화
+        this.modelName = "안전1";
+    }
+
+    // 1-3. 메서드 정의
+    public void feature1() {
+        System.out.println(this.modelName + ": feature1입니다.");
+    }
+}
+
+public class inheritance2 {
+    // 2-1. 인스턴스 변수 선언
+    public String modelName;
+
+    // 2-2. 생성자 정의
+    public inheritance2() {
+        // 인스턴스 변수 초기화
+        this.modelName = "안전2";
+    }
+
+    // 2-3. 메서드 정의
+    public void feature1() {
+        System.out.println(this.modelName + ": feature1입니다.");
+    }
+
+    public void feature2() {
+        System.out.println(this.modelName + ": feature2입니다.");
+    }
+}
+
+public class inheritance3 {
+    // 3-1. 인스턴스 변수 선언
+    public String modelName;
+
+    // 3-2. 생성자 정의
+    public inheritance3() {
+        // 인스턴스 변수 초기화
+        this.modelName = "안전3";
+    }
+
+    // 3-3. 메서드 정의
+    public void feature1() {
+        System.out.println(this.modelName + ": feature1입니다.");
+    }
+
+    public void feature3() {
+        System.out.println(this.modelName + ": feature3입니다.");
+    }
+}
+*/
+
+/*
+// 상속 후
+// 1. 부모 클래스
+public class inheritance1 {
+    // 1-1. 인스턴스 변수 선언
+    public String modelName;
+
+    // 1-2. 생성자 정의
+    public inheritance1() {
+        // 인스턴스 변수 초기화
+        this.modelName = "안전1";
+    }
+
+    // 1-3. 메서드 정의
+    public void feature1() {
+        System.out.println(this.modelName + ": feature1입니다.");
+    }
+}
+
+// 2. 자식 클래스
+public class inheritance2 extends inheritance1 {
+    // 2-1. 생성자 정의
+    public inheritance2() {
+        // 인스턴스 변수 초기화
+        this.modelName = "안전2";
+    }
+
+    // 2-2. 메서드 정의
+    public void feature2() {
+        System.out.println(this.modelName + ": feature2입니다.");
+    }
+}
+
+// 3. 자식 클래스
+public class inheritance3 extends inheritance1 {
+    // 3-1. 생성자 정의
+    public inheritance3() {
+        // 인스턴스 변수 초기화
+        this.modelName = "안전3";
+    }
+
+    // 3-2. 메서드 정의
+    public void feature3() {
+        System.out.println(this.modelName + ": feature3입니다.");
+    }
+}
+*/
