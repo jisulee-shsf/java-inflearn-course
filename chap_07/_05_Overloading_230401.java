@@ -9,7 +9,7 @@ public class _05_MethodOverloading_230401 {
         p.modelName = "자바폰";
         System.out.println(p.modelName); // 자바폰
 
-        // 3. 메서드 호출(메서드 오버로딩)
+        // 3. 메서드 호출(오버로딩)
         p.safety(true, true);
         /*
         안전 기능이 시작합니다.
@@ -27,7 +27,7 @@ public class _05_MethodOverloading_230401 {
 }
 
 /*
-// 메서드 오버로딩
+// 오버로딩
 public class Phone {
     // 1. safety() 메서드1
     void safety(boolean useEmergencySos, boolean useCrashDetection) {
