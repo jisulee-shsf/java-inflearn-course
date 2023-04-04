@@ -8,22 +8,22 @@ public class _07_This_230401 {
         // 2. 인스턴스 변수 값 설정
         p.modelType = "프로";
 
-        // 3-1. 메서드 호출(modelType += modelType;)
+        // 3-1. 지역 변수 += 지역 변수) 메서드 호출
         p.appendModelType("맥스");
         System.out.println(p.modelType); // 맥스
 
-        // 3-2. 메서드 호출(this.modelType += modelType;)
+        // 3-2. 인스턴스 변수 += 지역 변수) 메서드 호출
         p.appendModelType("맥스");
         System.out.println(p.modelType); // 프로맥스
     }
 }
 
 /*
-// 참조변수 this
+// 참조 변수 this
 public class Phone {
     void appendModelType(String modelType) {
-        // modelType += modelType; // 매개변수 modelType += 매개변수 modelType -> 맥스 += 맥스
-        this.modelType += modelType; // 인스턴스 변수 modelType += 매개변수 modelType -> modelType += 맥스
+        // modelType += modelType; 지역 변수 += 지역 변수
+        this.modelType += modelType; // 인스턴스 변수 += 지역 변수
     }
 }
 */
