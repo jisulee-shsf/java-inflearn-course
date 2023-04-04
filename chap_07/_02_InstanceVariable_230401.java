@@ -20,12 +20,12 @@ public class _02_InstanceVariable_230401 {
 }
 
 /*
-// 인스턴스 변수 선언
+// 인스턴스 변수
 public class Phone {
+    // 인스턴스 변수 선언
     String modelName; // 모델명
     String modelType; // 모델 타입
     int modelCapacity; // 모델 용량
     int modelPrice; // 모델 가격
-    int modelNumber; // 모델 번호
 }
 */
