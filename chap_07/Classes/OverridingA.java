@@ -1,11 +1,11 @@
 package chap_07.Classes;
 
-public class MethodOverridingA {
+public class OverridingA {
     // 1-1. 인스턴스 변수 선언
     public String modelName;
 
     // 1-2. 생성자 정의
-    public MethodOverridingA() {
+    public OverridingA() {
         // 인스턴스 변수 초기화
         this.modelName = "자바폰1";
     }
