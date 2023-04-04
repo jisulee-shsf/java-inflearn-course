@@ -13,7 +13,7 @@ public class _12_Inheritance_230402 {
         System.out.println(i2.modelName); // 안전2
         System.out.println(i3.modelName); // 안전3
 
-        // 2. 메소드 호출(상속 전)
+        // 2. 메서드 호출(상속 전)
         // Feature1 -> System.out.println("featureA")
         i1.feature1();
         i2.feature2();
@@ -26,7 +26,7 @@ public class _12_Inheritance_230402 {
 
         System.out.println();
 
-        // 3-1. 메소드 호출(상속 후)
+        // 3-1. 메서드 호출(상속 후)
         i1.feature1();
         i2.feature2();
         i3.feature3();
@@ -36,7 +36,7 @@ public class _12_Inheritance_230402 {
         안전3: feature3입니다.
         */
 
-        // 3-2. 메소드 호출(자식 클래스)
+        // 3-2. 메서드 호출(자손 클래스)
         i2.feature2();
         i3.feature3();
         /*
@@ -107,7 +107,7 @@ public class inheritance3 {
 
 /*
 // 상속 후
-// 1. 부모 클래스
+// 1. 조상 클래스
 public class inheritance1 {
     // 1-1. 인스턴스 변수 선언
     public String modelName;
@@ -124,7 +124,7 @@ public class inheritance1 {
     }
 }
 
-// 2. 자식 클래스
+// 2. 자손 클래스
 public class inheritance2 extends inheritance1 {
     // 2-1. 생성자 정의
     public inheritance2() {
@@ -138,7 +138,7 @@ public class inheritance2 extends inheritance1 {
     }
 }
 
-// 3. 자식 클래스
+// 3. 자손 클래스
 public class inheritance3 extends inheritance1 {
     // 3-1. 생성자 정의
     public inheritance3() {
