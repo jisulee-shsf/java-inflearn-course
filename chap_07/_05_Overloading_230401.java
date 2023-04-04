@@ -1,6 +1,6 @@
 package chap_07;
 
-public class _05_MethodOverloading_230401 {
+public class _05_Overloading_230401 {
     public static void main(String[] args) {
         // 1. 클래스 객체 생성
         Phone p = new Phone();
