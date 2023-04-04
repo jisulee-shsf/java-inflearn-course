@@ -17,7 +17,7 @@ public class _03_ClassVariable_230401 {
 }
 
 /*
-// 클래스 변수 선언(static)
+// 클래스 변수(static)
 public class Phone {
     static boolean canCrashDetection = false;
 }
