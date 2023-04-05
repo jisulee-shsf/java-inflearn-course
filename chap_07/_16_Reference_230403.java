@@ -67,5 +67,4 @@ public class _16_Reference_230403 {
     public static void changeModelName(SuperA s) {
         s.modelName = "오류";
     }
-
 }
