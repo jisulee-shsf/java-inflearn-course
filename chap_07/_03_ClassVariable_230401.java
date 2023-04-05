@@ -9,7 +9,7 @@ public class _03_ClassVariable_230401 {
         System.out.println(p.canCrashDetection); // 객체 -> false
         System.out.println(Phone.canCrashDetection); // 전체 -> false
 
-        // 3. 클래스 변수 값 변경 후 출력
+        // 3. 클래스 변숫값 변경 후 출력
         Phone.canCrashDetection = true;
         System.out.println(p.canCrashDetection); //  객체 -> true
         System.out.println(Phone.canCrashDetection); // 전체 -> true
