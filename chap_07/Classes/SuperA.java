@@ -10,7 +10,6 @@ public class SuperA { // 조상 클래스
     }
 
     protected SuperA(String modelName) {
-        // 인스턴스 변수 초기화
         this.modelName = modelName;
     }
 
