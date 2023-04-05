@@ -8,7 +8,7 @@ public class _09_GetterAndSetter_230401 {
         // 2-1. setter) 메서드 호출
         p.setModelName("자바폰");
         // p.setModelType("프로맥스"); 인스턴스 변수 값 누락
-        p.setModelCapacity(120); // -> 용량 정보 오기입
+        p.setModelCapacity(120); // 용량 정보 오기입
         p.setModelPrice(1000000);
 
         // 2-2. getter) 메서드 호출
