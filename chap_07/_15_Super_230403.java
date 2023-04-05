@@ -1,35 +1,40 @@
 package chap_07;
 
-import chap_07.Safety.Feature2;
-import chap_07.Safety.Feature3;
+import chap_07.Classes.SuperB;
+import chap_07.Classes.SuperC;
 
 public class _15_Super_230403 {
     public static void main(String[] args) {
         // 1. 클래스 객체 생성
-        Feature2 f2 = new Feature2();
-        Feature3 f3 = new Feature3();
+        SuperB s2 = new SuperB();
+        SuperC s3 = new SuperC();
 
-        // 2. 메서드 오버라이딩
-        f2.featureAA();
-        f2.featureAAA();
-        f3.featureAA();
-        f3.featureAAA();
-
+        // 2-1. 메서드 호출
+        s2.feature2();
+        s3.feature3();
         /*
-        안전2: featureAA / 메서드 오버라이딩1
-        안전2: featureAAA / super 참조변수
-        안전3: featureAA / 메서드 오버라이딩2
-        안전3: featureAAA / super 참조변수
+        자바폰2: feature2입니다.
+        자바폰3: feature3입니다.
         */
 
-        // 3. super 참조변수
-        f2.featureAA();
-        f3.featureAA();
+        // 2-2. 참조 변수 super) 메서드 호출
+        s2.feature2();
+        s3.feature3();
         /*
-        안전2: featureAA / 메서드 오버라이딩1
-        안전2: featureAAA / super 참조변수 -> super.featureAAA();
-        안전3: featureAA / 메서드 오버라이딩2
-        안전3: featureAAA / super 참조변수 -> super.featureAAA();
+        자바폰1: 참조 변수 super를 사용한 feature1입니다.
+        자바폰2: feature2입니다.
+        자바폰1: 참조 변수 super를 사용한 feature1입니다.
+        자바폰3: feature3입니다.
+        */
+
+        // 3-1. 생성자 super) 메서드 호출
+        s2.feature2();
+        s3.feature3();
+        /*
+        super자바폰2: 참조 변수 super를 사용한 feature1입니다.
+        super자바폰2: feature2입니다.
+        super자바폰3: 참조 변수 super를 사용한 feature1입니다.
+        super자바폰3: feature3입니다.
         */
     }
 }
