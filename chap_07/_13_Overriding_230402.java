@@ -9,7 +9,7 @@ public class _13_Overriding_230402 {
         OverridingB o2 = new OverridingB();
         OverridingC o3 = new OverridingC();
 
-        // 2-1. 메서드 호출(오버라이딩 전)
+        // 2-1. 오버라이딩 전) 메서드 호출
         o1.feature1();
         o2.feature1();
         o3.feature1();
@@ -19,7 +19,7 @@ public class _13_Overriding_230402 {
         자바폰3: feature1입니다.
         */
 
-        // 2-2. 메서드 호출(오버라이딩 후)
+        // 2-2. 오버라이딩 후) 메서드 호출
         o1.feature1();
         o2.feature1();
         o3.feature1();
