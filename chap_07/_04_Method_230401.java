@@ -13,7 +13,7 @@ _04_Method_230401 {
         // 3. 메서드 호출
         p.canCrashDetection1(); // 충돌이 감지되었습니다.
         p.canCrashDetection2(1); // 충돌이 감지되었습니다.
-        int objectCount = p.crashDetection3(1);
+        int objectCount = p.canCrashDetection3(1);
         System.out.println(p.modelName + "에 충돌이 감지된 물체 개수: " + objectCount + "개"); // 자바폰에 충돌이 감지된 물체 개수: 10개
     }
 }
