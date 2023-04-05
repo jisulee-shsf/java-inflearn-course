@@ -19,7 +19,7 @@ _04_Method_230401 {
 }
 
 /*
-// 메서드 정의
+// 메서드
 public class Phone {
     // 1. 기본 메서드 정의
     void canCrashDetection1() {
