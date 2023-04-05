@@ -22,26 +22,26 @@ public class _14_Polymorphism_230402 {
         */
 
         // 2-1. 다형성) 클래스 객체 생성
-        PolymorphismA p4 = new PolymorphismA();
-        PolymorphismA p5 = new PolymorphismB();
-        PolymorphismA p6 = new PolymorphismC();
+        PolymorphismA pp1 = new PolymorphismA();
+        PolymorphismA pp2 = new PolymorphismB();
+        PolymorphismA pp3 = new PolymorphismC();
 
         // 2-2. 다형성) 메서드 호출
-        p4.feature1();
-        p5.feature1();
-        p6.feature1();
+        pp1.feature1();
+        pp1.feature1();
+        pp1.feature1();
         /*
         자바폰1: feature1입니다.
         자바폰1: feature1입니다.
         자바폰1: feature1입니다.
         */
 
-        PolymorphismA[] ps = new PolymorphismA[3];
-        ps[0] = new PolymorphismA();
-        ps[1] = new PolymorphismB();
-        ps[2] = new PolymorphismC();
+        PolymorphismA[] pps = new PolymorphismA[3];
+        pps[0] = new PolymorphismA();
+        pps[1] = new PolymorphismB();
+        pps[2] = new PolymorphismC();
 
-        for (PolymorphismA p : ps) {
+        for (PolymorphismA p : pps) {
             p.feature1();
         }
         /*
@@ -51,13 +51,14 @@ public class _14_Polymorphism_230402 {
         */
 
         // 3. instanceof) 형변환
-        // p4.featureB(); p4 객체에서만 동작하는 메서드 호출 불가 -> 형변환으로 메서드 호출 가능
-        if (p5 instanceof PolymorphismB) {
-            ((PolymorphismB) p5).feature2();
+        // pp2.feature2(); -> pp2 객체에서만 동작하는 메서드 호출 불가 -> 형변환으로 메서드 호출
+        if (pp2 instanceof PolymorphismB) {
+            ((PolymorphismB) pp2).feature2();
         } // 자바폰2: PolymorphismB 형변환을 통해 호출한 feature2입니다.
 
-        if (p6 instanceof PolymorphismC) {
-            ((PolymorphismC) p6).feature3();
+        // pp3.feature3(); -> pp2 객체에서만 동작하는 메서드 호출 불가 -> 형변환으로 메서드 호출
+        if (pp3 instanceof PolymorphismC) {
+            ((PolymorphismC) pp3).feature3();
         } // 자바폰3: PolymorphismC 형변환을 통해 호출한 feature3입니다.
     }
 }
