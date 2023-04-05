@@ -36,7 +36,7 @@ public class Phone {
     }
 
     // 3. 매개변수와 반환값이 있는 메서드 정의
-    int crashDetection3(int number) {
+    int canCrashDetection3(int number) {
         if (number == 1) { // 충돌이 감지된 경우
             return 10; // 충돌 감지 물체 개수
         } else { // 이외의 경우
