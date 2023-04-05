@@ -6,7 +6,7 @@ public class _10_AccessModifier_230402 {
         PhoneUpdated pu = new PhoneUpdated();
 
         /*
-        // 2. 인스턴스 변수 값 설정
+        // 2. 인스턴스 변숫값 설정
         pu.modelPrice = 1000000;
         System.out.println(pu.modelPrice); // 1000000
         pu.modelPrice = -1000000; // 잘못된 값으로 설정될 수 있음
