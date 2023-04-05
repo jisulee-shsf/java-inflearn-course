@@ -6,7 +6,7 @@ public class _02_InstanceVariable_230401 {
         Phone p1 = new Phone();
         Phone p2 = new Phone();
 
-        // 2. 인스턴스 변수 값 설정
+        // 2. 인스턴스 변숫값 설정
         p1.modelName = "자바폰1";
         p1.modelType = "프로";
         p1.modelCapacity = 128;
