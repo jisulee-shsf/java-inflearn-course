@@ -6,7 +6,7 @@ _04_Method_230401 {
         // 1. 클래스 객체 생성
         Phone p = new Phone();
 
-        // 2. 인스턴스 변수 값 설정
+        // 2. 인스턴스 변숫값 설정
         p.modelName = "자바폰";
         System.out.println(p.modelName); // 자바폰
 
