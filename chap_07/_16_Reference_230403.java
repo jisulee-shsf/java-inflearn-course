@@ -37,7 +37,7 @@ public class _16_Reference_230403 {
         System.out.println(s1.modelName); // super자바폰2
         System.out.println(s2.modelName); // super자바폰2
 
-        s1.modelName = "테스트"; // s1과 s2가 같은 객체를 참조하고 있으므로, 동일 값 출력
+        s1.modelName = "테스트"; // s1과 s2가 같은 객체를 참조하고 있으므로, 동일한 값 출력
         System.out.println(s1.modelName); // "테스트"
         System.out.println(s2.modelName); // "테스트"
 
@@ -46,12 +46,12 @@ public class _16_Reference_230403 {
         SuperA s4 = s3;
         SuperA s5 = s3;
 
-        s1.modelName = "안전기능1"; // t1, t2, t3가 같은 객체를 참조하고 있으므로, 동일 값 출력
+        s1.modelName = "안전기능1"; // t1, t2, t3가 같은 객체를 참조하고 있으므로, 동일한 값 출력
         System.out.println(s3.modelName); // super자바폰1
         System.out.println(s4.modelName); // super자바폰1
         System.out.println(s5.modelName); // super자바폰1
 
-        changeModelName(s3); // t4, t5, t6가 같은 객체를 참조하고 있으므로, 동일 값 출력
+        changeModelName(s3); // t4, t5, t6가 같은 객체를 참조하고 있으므로, 동일한 값 출력
         System.out.println(s3.modelName); // 오류
         System.out.println(s4.modelName); // 오류
         System.out.println(s5.modelName); // 오류
