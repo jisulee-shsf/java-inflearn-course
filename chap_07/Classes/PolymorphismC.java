@@ -6,7 +6,6 @@ public class PolymorphismC extends PolymorphismA { // 자손 클래스
 
     // 1-2. 생성자 정의
     public PolymorphismC() {
-        // 인스턴스 변수 초기화
         this.modelName = "자바폰3";
     }
 
