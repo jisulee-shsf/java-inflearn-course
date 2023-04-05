@@ -21,6 +21,7 @@ public class _07_This_230401 {
 /*
 // 참조 변수 this
 public class Phone {
+    // 메서드 정의
     void appendModelType(String modelType) {
         // modelType += modelType; 지역 변수 += 지역 변수
         this.modelType += modelType; // 인스턴스 변수 += 지역 변수
