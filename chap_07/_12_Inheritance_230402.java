@@ -4,7 +4,7 @@ import chap_07.Classes.*;
 
 public class _12_Inheritance_230402 {
     public static void main(String[] args) {
-        // 1. 클래스 객체 생성 및 출력
+        // 1. 클래스 객체 생성 및 인스턴스 변수 출력
         InheritanceA i1 = new InheritanceA();
         InheritanceB i2 = new InheritanceB();
         InheritanceC i3 = new InheritanceC();
