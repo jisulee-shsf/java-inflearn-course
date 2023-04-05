@@ -14,7 +14,7 @@ public class _17_final_230406 {
         f1.feature1(); // 자바폰2: feature1입니다.
 
         /*
-        // 2-2. 인스턴스 변수에 키워드 final 사용) 인스턴스 변수값 변경 시도 -> 변숫값 변경 불가
+        // 2-2. 인스턴스 변수에 키워드 final 사용) 인스턴스 변숫값 변경 시도 -> 변숫값 변경 불가
         f1.modelName = "자바폰3";
         java: cannot assign a value to final variable modelName
         */
