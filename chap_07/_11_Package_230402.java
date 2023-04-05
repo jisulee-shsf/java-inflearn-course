@@ -7,7 +7,7 @@ public class _11_Package_230402 {
         // 1. Random 클래스 객체 생성
         Random r = new Random();
 
-        // 2. Random 클래스 사용 예시
+        // 2. Random 클래스 메소드 활용
         System.out.println(r.nextInt()); // 1684752253
         System.out.println(r.nextInt(100)); // 0 이상 100 미만의 수 출력 -> 36
 
