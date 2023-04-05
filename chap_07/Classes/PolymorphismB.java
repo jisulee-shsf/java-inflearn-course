@@ -1,6 +1,6 @@
 package chap_07.Classes;
 
-public class PolymorphismB extends PolymorphismA { // 자식 클래스
+public class PolymorphismB extends PolymorphismA { // 자손 클래스
     // 1-1. 인스턴스 변수 선언
     public String modelName;
 
