@@ -6,7 +6,6 @@ public class InheritanceA { // 조상 클래스
 
     // 1-2. 생성자 정의
     public InheritanceA() {
-        // 인스턴스 변수 초기화
         this.modelName = "자바폰1";
     }
 
