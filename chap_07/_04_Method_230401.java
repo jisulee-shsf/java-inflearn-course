@@ -26,7 +26,7 @@ public class Phone {
         System.out.println("충돌이 감지되었습니다.");
     }
 
-    // 2. 매개변수가 있는 메서드 정의
+    // 2. 매개 변수가 있는 메서드 정의
     void canCrashDetection2(int number) {
         if (number == 1) {
             System.out.println("충돌이 감지되었습니다.");
@@ -35,7 +35,7 @@ public class Phone {
         }
     }
 
-    // 3. 매개변수와 반환값이 있는 메서드 정의
+    // 3. 매개 변수와 반환값이 있는 메서드 정의
     int canCrashDetection3(int number) {
         if (number == 1) { // 충돌이 감지된 경우
             return 10; // 충돌 감지 물체 개수
