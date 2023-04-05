@@ -4,7 +4,6 @@ public class OverridingC extends OverridingA {
 
     // 3-1. 생성자 정의
     public OverridingC() {
-        // 인스턴스 변수 초기화
         this.modelName = "자바폰3";
     }
 
