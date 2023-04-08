@@ -1,11 +1,11 @@
-package chap_07.Classes;
+package chap_07.classes;
 
-public class PolymorphismA { // 조상 클래스
+public class InheritanceA { // 조상 클래스
     // 1-1. 인스턴스 변수 선언
     public String modelName;
 
     // 1-2. 생성자 정의
-    public PolymorphismA() {
+    public InheritanceA() {
         this.modelName = "자바폰1";
     }
 

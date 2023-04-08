@@ -1,8 +1,8 @@
 package chap_07;
 
-import chap_07.Classes.PolymorphismA;
-import chap_07.Classes.PolymorphismB;
-import chap_07.Classes.PolymorphismC;
+import chap_07.classes.PolymorphismA;
+import chap_07.classes.PolymorphismB;
+import chap_07.classes.PolymorphismC;
 
 public class _14_Polymorphism_230402 {
     public static void main(String[] args) {

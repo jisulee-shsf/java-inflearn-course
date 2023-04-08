@@ -1,4 +1,4 @@
-package chap_07.Classes;
+package chap_07.classes;
 
 public class SuperA { // 조상 클래스
     // 1-1. 인스턴스 변수 선언

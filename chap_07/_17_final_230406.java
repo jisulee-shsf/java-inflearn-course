@@ -1,7 +1,7 @@
 package chap_07;
 
-import chap_07.Classes.FinalA;
-import chap_07.Classes.FinalB;
+import chap_07.classes.FinalA;
+import chap_07.classes.FinalB;
 
 public class _17_final_230406 {
     public static void main(String[] args) {

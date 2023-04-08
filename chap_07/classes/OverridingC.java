@@ -1,4 +1,4 @@
-package chap_07.Classes;
+package chap_07.classes;
 
 public class OverridingC extends OverridingA {
 

@@ -1,4 +1,4 @@
-package chap_08.Classes;
+package chap_08.classes;
 
 public class AbstractClassB extends AbstractClassA {
 

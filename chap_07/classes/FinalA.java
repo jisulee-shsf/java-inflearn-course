@@ -1,4 +1,4 @@
-package chap_07.Classes;
+package chap_07.classes;
 
 public class FinalA {
     // 1-1. 인스턴스 변수 선언

@@ -1,6 +1,6 @@
 package chap_07;
 
-import chap_07.Classes.*;
+import chap_07.classes.*;
 
 public class _12_Inheritance_230402 {
     public static void main(String[] args) {

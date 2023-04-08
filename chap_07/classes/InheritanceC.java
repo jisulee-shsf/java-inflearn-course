@@ -1,4 +1,4 @@
-package chap_07.Classes;
+package chap_07.classes;
 
 public class InheritanceC extends InheritanceA { // 자손 클래스
     // 3-1. 생성자 정의

@@ -1,4 +1,4 @@
-package chap_07.Classes;
+package chap_07.classes;
 
 public class SuperB extends SuperA { // 자식 클래스
     // 2-1. 생성자 호출

@@ -1,7 +1,7 @@
 package chap_07;
 
-import chap_07.Classes.SuperA;
-import chap_07.Classes.SuperB;
+import chap_07.classes.SuperA;
+import chap_07.classes.SuperB;
 
 public class _16_Reference_230403 {
     public static void main(String[] args) {

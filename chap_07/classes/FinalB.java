@@ -1,4 +1,4 @@
-package chap_07.Classes;
+package chap_07.classes;
 
 public class FinalB extends FinalA {
     // 2-1. 생성자 정의
