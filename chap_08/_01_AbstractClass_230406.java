@@ -1,8 +1,6 @@
 package chap_08;
 
-import chap_08.classes.AbstractClassA; // 조상 클래스
-import chap_08.classes.AbstractClassB; // 자손 클래스
-import chap_08.classes.AbstractClassC; // 자손 클래스
+import chap_08.*;
 
 public class _01_AbstractClass_230406 {
     public static void main(String[] args) {
