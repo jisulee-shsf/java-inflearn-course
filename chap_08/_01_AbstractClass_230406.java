@@ -1,6 +1,6 @@
 package chap_08;
 
-import chap_08.*;
+import chap_08.classes.*;
 
 public class _01_AbstractClass_230406 {
     public static void main(String[] args) {
