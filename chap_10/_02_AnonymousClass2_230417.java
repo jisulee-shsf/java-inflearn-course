@@ -1,6 +1,6 @@
 package chap_10;
 
-public class _02_AnonymousClass_230417 {
+public class _02_AnonymousClass2_230417 {
     public static void main(String[] args) {
         Branch firstBranch = offerFirstBranchDiscount();
         firstBranch.sell();
