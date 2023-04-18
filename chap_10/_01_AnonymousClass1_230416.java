@@ -1,6 +1,6 @@
 package chap_10;
 
-public class _01_AnonymousClass_230416 {
+public class _01_AnonymousClass1_230416 {
     public static void main(String[] args) {
         // 1. 기존
         Shop s1 = new Shop();
