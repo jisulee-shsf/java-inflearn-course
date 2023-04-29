@@ -28,7 +28,6 @@ public class _03_Join_230428 {
         detect1) 전체 감지 완료
         */
 
-        System.out.println("----");
         thread.start();
         try {
             thread.join(2000);
