@@ -2,7 +2,7 @@ package chap_13;
 
 import java.util.Scanner;
 
-public class _01_input_230430 {
+public class _01_Input_230430 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("인바디 사용자 등록을 시작합니다.");
