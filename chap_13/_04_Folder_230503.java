@@ -18,8 +18,8 @@ public class _04_Folder_230503 {
         */
 
         File folder2 = new File("AAA/BBB/CCC");
-        folder1.mkdirs();
-        if (folder1.exists()) {
+        folder2.mkdirs();
+        if (folder2.exists()) {
             System.out.println("폴더 이름: " + folder2.getName());
             System.out.println("폴더 경로: " + folder2.getAbsoluteFile());
         } else {
