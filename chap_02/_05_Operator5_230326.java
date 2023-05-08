@@ -1,19 +1,19 @@
 package chap_02;
 
-public class _05_TernaryOperator_230326 {
+public class _05_Operator5_230326 {
     public static void main(String[] args) {
         // 삼항 연산자
-        int x = 3;
-        int y = 1;
-        int num = (x > y) ? x : y;
-        System.out.println(num); // x -> 3
-        num = (x < y) ? x : y;
-        System.out.println(num); // y -> 1
+        int x = 1;
+        int y = 3;
+        int min = (x < y) ? x : y;
+        System.out.println(min); // x -> 1
+        int max = (x > y) ? x : y;
+        System.out.println(max); // y -> 3
 
         boolean b = (x > y) ? true : false;
-        System.out.println(b); // true
-        b = (x < y) ? true : false;
         System.out.println(b); // false
+        b = (x < y) ? true : false;
+        System.out.println(b); // true
 
         String s = (x == y) ? "같은 숫자입니다." : "다른 숫자입니다.";
         System.out.println(s); // 다른 숫자입니다.
