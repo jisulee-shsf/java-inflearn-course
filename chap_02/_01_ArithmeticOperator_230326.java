@@ -34,7 +34,6 @@ public class _01_ArithmeticOperator_230326 {
         System.out.println(++i); // 31
         System.out.println(i); // 31
 
-        // 4-2. 감소 연산
         i = 30;
         System.out.println(i); // 30
         System.out.println(i--); // 30
@@ -45,7 +44,7 @@ public class _01_ArithmeticOperator_230326 {
         System.out.println(--i); // 29
         System.out.println(i); // 29
 
-        // 4-3. 증감 연산 예시
+        // 4-2. 증가 연산 예시
         int waiting = 0;
         System.out.println("현재 대기 인원은 " + waiting++ + "명입니다."); // 0
         System.out.println("현재 대기 인원은 " + waiting++ + "명입니다."); // 1
