@@ -1,6 +1,6 @@
 package chap_02;
 
-public class _01_ArithmeticOperator_230326 {
+public class _01_Operator1_230326 {
     public static void main(String[] args) {
         // 1. 일반 연산
         System.out.println(3 + 3); // 6
