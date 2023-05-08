@@ -23,17 +23,17 @@ public class _01_String1_230327 {
         System.out.println(s.indexOf("and")); // 12
         System.out.println(s.lastIndexOf("and")); // 23
 
-        // 5. toUpperCase() & toLowerCase(): 문자열 대소문자 변환
-        System.out.println(s.toUpperCase()); // I LIKE JAVA AND PYTHON AND C.
-        System.out.println(s.toLowerCase()); // i like java and python and c.
-
-        // 6. replace(): 문자열 치환
-        System.out.println(s.replace("C", "C#")); // I like Java and Python and C#.
-
-        // 7. substring(): 문자열 자르기
+        // 5. substring(): 특정 범위의 문자열 반환
         System.out.println(s.substring(7)); // Java and Python and C.
         System.out.println(s.substring(s.indexOf("Java"))); // Java and Python and C.
         System.out.println(s.substring(s.indexOf("Java"), s.indexOf("."))); // Java and Python and C
+
+        // 6. toUpperCase() & toLowerCase(): 문자열 대소문자 변환
+        System.out.println(s.toUpperCase()); // I LIKE JAVA AND PYTHON AND C.
+        System.out.println(s.toLowerCase()); // i like java and python and c.
+
+        // 7. replace(): 문자열 치환
+        System.out.println(s.replace("C", "C#")); // I like Java and Python and C#.
 
         // 8. concat(): 문자열 결합
         String s1 = "Java";
