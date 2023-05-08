@@ -17,7 +17,7 @@ public class _01_String1_230327 {
         System.out.println(s.startsWith("I")); // true
         System.out.println(s.endsWith("C")); // false
 
-        // 4. indexOf(): 특정 문자열이 시작되는 위치 반환
+        // 4. indexOf(): 특정 문자열의 위치 반환
         System.out.println(s.indexOf("Java")); // 7
         System.out.println(s.indexOf("C#")); // -1
         System.out.println(s.indexOf("and")); // 12
