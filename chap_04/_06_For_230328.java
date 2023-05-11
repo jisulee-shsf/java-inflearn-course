@@ -8,7 +8,7 @@ public class _06_For_230328 {
 
         }
 
-        // 2-1. 짝수 & 홀수를 구하는 경우
+        // 2-1. 짝수 & 홀수 출력
         for (int i = 0; i < 10; i += 2) {
             System.out.print(i + " "); // 0 2 4 6 8
         }
@@ -17,13 +17,12 @@ public class _06_For_230328 {
             System.out.print(i + " "); // 1 3 5 7 9
         }
 
-        System.out.println();
-        // 2-2. 숫자 거꾸로 출력하는 경우
+        // 2-2. 숫자 거꾸로 출력
         for (int i = 10; i > 0; i--) {
             System.out.print(i + " "); // 10 9 8 7 6 5 4 3 2 1
         }
 
-        // 2-3. 숫자 총합을 구하는 경우
+        // 2-3. 숫자 총합 출력
         int sum = 0;
         for (int i = 1; i < 11; i++) {
             sum += i;
