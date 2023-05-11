@@ -37,62 +37,55 @@ public class _08_NestedLoop_230329 {
         #1-2
         */
 
-        // 2. * 좌우 삼각형 만들기
+        // 2-1. 좌측 * 삼각형 만들기
+        for (int j = 0; j <= 0; j++) System.out.print("*"); System.out.println();
+        for (int j = 0; j <= 1; j++) System.out.print("*"); System.out.println();
+        for (int j = 0; j <= 2; j++) System.out.print("*"); System.out.println();
+        for (int j = 0; j <= 3; j++) System.out.print("*"); System.out.println();
+        for (int j = 0; j <= 4; j++) System.out.print("*"); System.out.println();
+        /*
+         *
+         **
+         ***
+         ****
+         *****
+         */
+
         for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < i + 1; j++) {
-                // for (int j = 0; j <= i; j++) {
+            for (int j = 0; j <= i; j++) {
+            // for (int j = 0; j < i + 1; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
         System.out.println("#2-1");
         /*
-        *
-        **
-        ***
-        ****
-        *****
+        *     -> i: 0 / j: 0
+        **    -> i: 1 / j: 0, 1
+        ***   -> i: 2 / j: 0, 1, 2
+        ****  -> i: 3 / j: 0, 1, 2, 3
+        ***** -> i: 4 / j: 0, 1, 2, 3, 4
         #2-1
         */
 
+        // 2-2. 우측 * 삼각형 만들기
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 4 - i; j++) {
-                System.out.print(" ");
-                /*
-                1) i = 0,  j = 0
-                   0 < (4 - 0) -> s
-                   1 < (4 - 0) -> s
-                   2 < (4 - 0) -> s
-                   3 < (4 - 0) -> s
-                   4 < (4 - 0) -> X
-                2) i = 1,  j = 0
-                   0 < (4 - 1) -> s
-                   1 < (4 - 1) -> s
-                   2 < (4 - 1) -> s
-                   3 < (4 - 1) -> X
-                3) i = 2,  j = 0
-                   0 < (4 - 2) -> s
-                   1 < (4 - 3) -> s
-                   2 < (4 - 4) -> X
-                3) i = 3,  j = 0
-                   0 < (4 - 3) -> s
-                   1 < (4 - 3) -> X
-                4) i = 4,  j = 0
-                   0 < (4 - 4) -> X
-                */
+                System.out.print("s");
             }
             for (int k = 0; k <= i; k++) {
+            // for (int k = 0; k < i + 1; k++) {
                 System.out.print("*");
             }
             System.out.println();
         }
         System.out.println("#2-2");
         /*
-            *
-           **
-          ***
-         ****
-        *****
+        ssss* -> i: 0 / j: 0, 1, 2, 3 / k: 0
+        sss** -> i: 1 / j: 0, 1, 2 / k: 0, 1
+        ss*** -> i: 2 / j: 0, 1 / k: 0, 1, 2
+        s**** -> i: 3 / j: 0 / k: 0, 1, 2, 3
+        ***** -> i: 4 / k: 0, 1, 2, 3, 4
         #2-2
         */
     }
