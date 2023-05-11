@@ -2,7 +2,7 @@ package chap_04;
 
 public class _02_If2_230328 {
     public static void main(String[] args) {
-        // 1. &&: if문 조건을 모두 만족한 경우
+        // 1. if문 조건식을 모두 만족한 경우
         int hour = 6;
         boolean breakfast = false;
         if (hour <= 6 && breakfast == false) { // 6시까지 도착하고 공복이라면, PT 시작
@@ -17,7 +17,7 @@ public class _02_If2_230328 {
         PT를 종료합니다. #1
         */
 
-        // 2. ||: if문 조건 중, 하나라도 만족한 경우
+        // 2. if문 조건식 중, 하나라도 만족한 경우
         hour = 6;
         breakfast = true;
         if (hour <= 6 || breakfast == false) { // 6시까지 도착하거나 공복이라면, PT 시작
