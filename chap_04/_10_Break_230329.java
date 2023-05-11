@@ -23,14 +23,14 @@ public class _10_Break_230329 {
         */
 
         // 2. while문의 break
-        int index = 1;
-        while (index <= 30) {
+        int index = 1; // 초기화
+        while (index <= 30) { // 조건식
             System.out.println(index + "번째 손님, 50% 쿠폰이 제공되었습니다.");
             if (index == max) {
                 System.out.println("선착순 쿠폰이 모두 소진되었습니다.");
                 break;
             }
-            index++;
+            index++; // 증감식
         }
         System.out.println("이벤트를 종료합니다. #2");
         /*
