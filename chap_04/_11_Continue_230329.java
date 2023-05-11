@@ -8,13 +8,11 @@ public class _11_Continue_230329 {
         int noShow = 10; // 노쇼로 커피 제공이 어려운 고객 번호
         for (int i = 1; i <= 30; i++) {
             System.out.println(i + "번째 손님, 주문하신 시그니쳐 커피 나왔습니다.");
-
             if (i == noShow) {
                 System.out.println(i + "번째 손님, 노쇼로 다음 손님께 순서가 넘어갑니다.");
                 continue;
             }
             offer++;
-
             if (offer == max) {
                 System.out.println("음료가 모두 소진되었습니다.");
                 break;
@@ -45,7 +43,6 @@ public class _11_Continue_230329 {
                 continue;
             }
             offer++;
-
             if (offer == max) {
                 System.out.println("음료가 모두 소진되었습니다.");
                 break;
@@ -65,11 +62,11 @@ public class _11_Continue_230329 {
         금일 영업을 종료합니다. #2-1
         */
 
-        // 2-2. while문의 continue -> true & condition
+        // 2-2. index 위치 옵션 & 무한 루프 + 특정 조건을 충족할 경우, break 확인
         offer = 0; // 제공된 커피 수
-        index = 0; // 손님 수 -> 0에서 시작
-        while (true) { // while (index < 50) -> 0부터 49까지 총 50명 유지
-            index++; // -> 시작과 함께 손님 수 카운팅
+        index = 0; // 1) 손님 수를 0으로 설정
+        while (true) { // 무한 루프 + 특정 조건을 충족할 경우, break
+            index++; // 2) 시작과 함께 손님 수 카운팅
             System.out.println(index + "번째 손님, 주문하신 시그니쳐 커피 나왔습니다.");
 
             if (index == noShow) {
@@ -77,7 +74,6 @@ public class _11_Continue_230329 {
                 continue;
             }
             offer++;
-
             if (offer == max) {
                 System.out.println("음료가 모두 소진되었습니다.");
                 break;
