@@ -54,7 +54,7 @@ public class _05_ASCII_230330 {
         char c = 'a';
         for (int i = 0; i < seats2.length; i++) {
             for (int j = 0; j < seats2[i].length; j++) {
-                seats2[i][j] = String.valueOf(c) + (j + 1); // char -> String
+                seats2[i][j] = String.valueOf(c) + (j + 1);
             }
             c++; // b, c, d ... j
         }
