@@ -2,15 +2,15 @@ package chap_05;
 
 public class _04_MultiDimensionalArrayLoop_230330 {
     public static void main(String[] args) {
-        // 1-1. 크기가 같은 2차원 배열 순회
+        // 1-1. 크기가 같은 2차원 배열의 순회
         String[][] seats1 = {
                 {"a1", "a2", "a3", "a4", "a5"},
                 {"b1", "b2", "b3", "b4", "b5"},
                 {"c1", "c2", "c3", "c4", "c5"}
         };
 
-        for (int i = 0; i < seats1.length; i++) { // 세로 -> 0, 1, 2
-            for (int j = 0; j < seats1[i].length; j++) { // 가로 -> 0, 1, 2, 3, 4
+        for (int i = 0; i < seats1.length; i++) {
+            for (int j = 0; j < seats1[i].length; j++) {
                 System.out.print(seats1[i][j] + " ");
             }
             System.out.println();
@@ -23,15 +23,15 @@ public class _04_MultiDimensionalArrayLoop_230330 {
         순회 종료 #1-1
         */
 
-        // 1-2. 크기가 다른 2차원 배열 순회
+        // 1-2. 크기가 다른 2차원 배열의 순회
         String[][] seats2 = {
                 {"a1", "a2", "a3"},
                 {"b1", "b2", "b3", "b4"},
                 {"c1", "c2", "c3", "c4", "c5"}
         };
 
-        for (int i = 0; i < seats2.length; i++) { // 세로 -> 0, 1, 2
-            for (int j = 0; j < seats2[i].length; j++) { // 가로 -> 0, 1, 2, 3, 4
+        for (int i = 0; i < seats2.length; i++) {
+            for (int j = 0; j < seats2[i].length; j++) {
                 System.out.print(seats2[i][j] + " ");
             }
             System.out.println();
@@ -44,7 +44,7 @@ public class _04_MultiDimensionalArrayLoop_230330 {
         순회 종료 #1-2
         */
 
-        // 2. 2차원 배열 선언 ・ 초기화 ・ 순회 ・ 출력
+        // 2. 2차원 배열의 순회 활용
         String[][] seats3 = new String[10][15];
         String[] eng = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"};
         for (int i = 0; i < seats3.length; i++) {
