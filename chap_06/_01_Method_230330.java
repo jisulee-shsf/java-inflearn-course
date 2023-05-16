@@ -3,7 +3,7 @@ package chap_06;
 public class _01_Method_230330 {
     // 1. 메서드 정의
     public static void sayHello() {
-        System.out.println("메서드입니다."); // 메서드입니다.
+        System.out.println("메서드입니다.");
     }
 
     // 2. 메서드 호출
