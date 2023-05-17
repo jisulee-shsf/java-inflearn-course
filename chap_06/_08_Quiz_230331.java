@@ -1,8 +1,8 @@
 package chap_06;
 
-// 개인정보 일부를 비공개(*)로 전환하는 프로그램 작성
-
 /*
+개인정보 일부를 비공개(*)로 전환하는 프로그램 작성
+
 설명)
 하나의 메서드를 정의해 모든 동작 처리
 
@@ -12,7 +12,7 @@ package chap_06;
 전화번호: 10번째 글자부터 비공개(010-1234-'5678')
 */
 
-public class _07_Quiz_230331 {
+public class _08_Quiz_230331 {
     public static String getHiddenData(String info, int index) {
         String hiddenData = info.substring(0, index); // 공개 영역
         for (int i = 0; i < info.length() - index; i++) { // 비공개 영역
