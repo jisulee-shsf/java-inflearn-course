@@ -1,6 +1,6 @@
 package chap_06;
 
-public class _06_MainMethod_230331 {
+public class _07_MainMethod_230331 {
     // 메인 메서드
     public static void main(String[] args) {
         if (args.length == 1) {
