@@ -29,7 +29,7 @@
 - _01_If1_230328
 - _02_If2_230328
 - _03_Else_230328
-- _04_Quiz_230327
+- _04_ElseIf_230328
 - _05_Switch_230328
 - _06_For_230328
 - _07_While_230328
@@ -47,15 +47,15 @@
 - _05_ASCII_230330
 - _06_Quiz_230330
 ####
-#### ► [chap_06] 메소드
+#### ► [chap_06] 메서드
 - _01_Method_230330
 - _02_Parameter_230330
 - _03_Return_230330
 - _04_ParameterAndReturn_230330
 - _05_MethodOverloading_230331
-- _06_MainMethod_230331
-- _07_Quiz_230331
-####
+- _06_WhenToUse_230518
+- _07_MainMethod_230331
+- _08_Quiz_230331
 ####
 #### ► [chap_07] 클래스
 - _01_Class_230401
