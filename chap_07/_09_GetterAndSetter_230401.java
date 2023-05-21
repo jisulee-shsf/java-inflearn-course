@@ -23,35 +23,35 @@ public class _09_GetterAndSetter_230401 {
 }
 
 class Phone9 {
-    String modelName;
-    String modelType;
-    int modelCapacity;
+    private String modelName;
+    private String modelType;
+    private int modelCapacity;
 
     // 1. modelName) getter & setter 메서드 정의
-    String getModelName() {
+    public String getModelName() {
         return modelName;
     }
-    void setModelName(String modelName) {
+    public void setModelName(String modelName) {
         this.modelName = modelName;
     }
 
     // 2. modelType) getter & setter 메서드 정의
-    String getModelType() {
+    public String getModelType() {
         if (modelType == null || modelType.isEmpty()) {
             return "오류가 발생했습니다.";
         }
         return modelType;
     }
-    void setModelType(String modelType) {
+    public void setModelType(String modelType) {
         this.modelType = modelType;
     }
     
     // 3. modelCapacity) getter & setter 메서드 정의
-    int getModelCapacity() {
+    public int getModelCapacity() {
         return modelCapacity;
     }
 
-    void setModelCapacity(int modelCapacity) {
+    public void setModelCapacity(int modelCapacity) {
         if (modelCapacity < 128) {
             this.modelCapacity = 128;
         } else {
