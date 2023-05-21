@@ -2,24 +2,25 @@ package chap_07;
 
 public class _03_ClassVariable_230401 {
     public static void main(String[] args) {
-        // 1. 클래스 객체 생성
-        Phone p = new Phone();
+        // 1. 클래스 객체 생성 전, 클래스 변수의 값 출력
+        System.out.println(Phone3.canCrashDetection); // true
 
-        // 2. 클래스 변수 출력
-        System.out.println(p.canCrashDetection); // 객체 -> false
-        System.out.println(Phone.canCrashDetection); // 전체 -> false
+        // 2. 클래스 객체 생성 후, 클래스 변수 출력
+        Phone3 p1 = new Phone3();
+        Phone3 p2 = new Phone3();
 
-        // 3. 클래스 변숫값 변경 후 출력
-        Phone.canCrashDetection = true;
-        System.out.println(p.canCrashDetection); //  객체 -> true
-        System.out.println(Phone.canCrashDetection); // 전체 -> true
+        System.out.println(p1.canCrashDetection); // true
+        System.out.println(p2.canCrashDetection); // true
+        System.out.println(Phone3.canCrashDetection); // true
+
+        // 3. 클래스 변수 변경 후 출력 -> 객체 전체에 변경 사항 적용 확인
+        Phone3.canCrashDetection = false;
+        System.out.println(p1.canCrashDetection); // false
+        System.out.println(p2.canCrashDetection); // false
+        System.out.println(Phone3.canCrashDetection); // false
     }
 }
 
-/*
-// 클래스 변수(static)
-public class Phone {
-    // 클래스 변수 선언
-    static boolean canCrashDetection = false;
+class Phone3 {
+    static boolean canCrashDetection = true;
 }
-*/
