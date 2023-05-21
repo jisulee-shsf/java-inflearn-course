@@ -15,7 +15,10 @@ public class _01_Class_230401 {
         // ...
 
         // 2. 클래스 객체 생성
-        Phone p1 = new Phone(); // Phone 클래스의 p1 객체 생성
-        Phone p2 = new Phone(); // Phone 클래스의 p2 객체 생성
+        Phone1 p1 = new Phone1(); // Phone1 클래스의 p1 객체 생성
+        Phone1 p2 = new Phone1(); // Phone1 클래스의 p2 객체 생성
     }
+}
+
+class Phone1 {
 }
