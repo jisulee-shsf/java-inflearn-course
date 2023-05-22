@@ -1,16 +1,15 @@
 package chap_07;
 
-import java.util.Random; // Random 클래스 import 확인
+import java.util.Random;
 
 public class _11_Package_230402 {
     public static void main(String[] args) {
         // 1. Random 클래스 객체 생성
         Random r = new Random();
 
-        // 2. Random 클래스 메소드 활용
+        // 2. Random 클래스 활용
         System.out.println(r.nextInt()); // 1684752253
         System.out.println(r.nextInt(100)); // 0 이상 100 미만의 수 출력 -> 36
-
         System.out.println(r.nextDouble()); // 0.0 이상 1.0 미만의 수 출력 -> 0.26672064270496887
         System.out.println(r.nextBoolean()); // true
 
