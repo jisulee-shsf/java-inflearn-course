@@ -1,8 +1,5 @@
 package chap_07;
 
-import chap_07.classes.SuperA;
-import chap_07.classes.SuperB;
-
 public class _16_Reference_230403 {
     public static void main(String[] args) {
         // 1-1. 기본형
@@ -24,12 +21,12 @@ public class _16_Reference_230403 {
         System.out.println(b); // 2 -> a와 관계없이 값 유지
 
         // 2-1. 참조형
-        SuperA[] s = new SuperA[2];
+        ReferenceA[] s = new ReferenceA[2];
         System.out.println(s[0] == null); // true
 
-        // 2-2. 참조형 예시1
-        SuperA s1 = new SuperA();
-        SuperB s2 = new SuperB();
+        // 2-2. 참조형 예시
+        ReferenceA s1 = new ReferenceA();
+        ReferenceB s2 = new ReferenceB();
         System.out.println(s1.modelName); // super자바폰1
         System.out.println(s2.modelName); // super자바폰2
 
@@ -41,30 +38,27 @@ public class _16_Reference_230403 {
         System.out.println(s1.modelName); // "테스트"
         System.out.println(s2.modelName); // "테스트"
 
-        // 2-3. 참조형 예시2
-        SuperA s3 = new SuperA();
-        SuperA s4 = s3;
-        SuperA s5 = s3;
+        // 2-3. 참조 끊기
+        s2 = null;
+        System.out.println(s1.modelName); // "테스트"
+        System.out.println(s2.modelName); // NullPointerException
+    }
+}
 
-        s1.modelName = "안전기능1"; // t1, t2, t3가 같은 객체를 참조하고 있으므로, 동일한 값 출력
-        System.out.println(s3.modelName); // super자바폰1
-        System.out.println(s4.modelName); // super자바폰1
-        System.out.println(s5.modelName); // super자바폰1
+class ReferenceA {
+    public String modelName;
 
-        changeModelName(s3); // t4, t5, t6가 같은 객체를 참조하고 있으므로, 동일한 값 출력
-        System.out.println(s3.modelName); // 오류
-        System.out.println(s4.modelName); // 오류
-        System.out.println(s5.modelName); // 오류
-
-        // 2-4. 참조 끊기
-        s4 = null;
-        s5 = null;
-        System.out.println(s3.modelName); // 오류
-        System.out.println(s4.modelName); // NullPointerException
-        System.out.println(s5.modelName); // NullPointerException
+    public ReferenceA() {
+        this("super자바폰1");
     }
 
-    public static void changeModelName(SuperA s) {
-        s.modelName = "오류";
+    protected ReferenceA(String modelName) {
+        this.modelName = modelName;
+    }
+}
+
+class ReferenceB extends ReferenceA {
+    public ReferenceB() {
+        super("super자바폰2");
     }
 }
