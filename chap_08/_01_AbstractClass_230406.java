@@ -40,6 +40,5 @@ class AbstractClassC extends AbstractClassA {
     @Override
     public void findSth() { // 추상 메서드 구현
         System.out.println("AbstractClassC에서 findSth을 시작합니다.");
-
     }
 }
