@@ -1,24 +1,26 @@
 package chap_08;
 
-import chap_08.classes.phone.InterfaceB;
 import chap_08.classes.checker.*;
 import chap_08.classes.correcter.*;
+import chap_08.classes.phone.*;
 
 public class _02_interface_230408 {
     public static void main(String[] args) {
-        // 1-1. 인터페이스 Checkable) 클래스 객체 생성 및 메서드 호출
+        // 1-1. 인터페이스 Checkable) 클래스 객체 생성 & 메서드 호출
         CheckA checkA = new CheckA();
         checkA.checkSth();
-        Checkable checkB = new CheckB();
+
+        CheckB checkB = new CheckB();
         checkB.checkSth();
         /*
         CheckA에서 checkSth을 시작합니다.
         CheckB에서 checkSth을 시작합니다.
         */
 
-        // 1-2. 인터페이스 Correctable) 클래스 객체 생성 및 메서드 호출
-        CorrectA correctA = new CorrectA();
+        // 1-2. 인터페이스 Correctable) 클래스 객체 생성 & 메서드 호출
+        Correctable correctA = new CorrectA();
         correctA.correctSth();
+
         Correctable correctB = new CorrectB();
         correctB.correctSth();
         /*
@@ -26,22 +28,24 @@ public class _02_interface_230408 {
         CorrectB에서 correctSth을 시작합니다.
         */
 
-        // 2. 추상 클래스 & 인터페이스) 클래스 객체 생성 및 메서드 호출
-        InterfaceB interfaceB = new InterfaceB();
+        // 2. 인터페이스 Checkable & Correctable) 클래스 객체 생성 & 메서드 호출
+        Phone phone = new Phone();
 
-        interfaceB.setChecker(checkA);
-        interfaceB.setCorrecter(correctA);
-        interfaceB.checkSth();
-        interfaceB.correctSth();
+        phone.setChecker(checkA);
+        phone.setCorrecter(correctA);
+
+        phone.checkSth();
+        phone.correctSth();
         /*
         CheckA에서 checkSth을 시작합니다.
         CorrectA에서 correctSth을 시작합니다.
         */
 
-        interfaceB.setChecker(checkB);
-        interfaceB.setCorrecter(correctB);
-        interfaceB.checkSth();
-        interfaceB.correctSth();
+        phone.setChecker(checkB);
+        phone.setCorrecter(correctB);
+
+        phone.checkSth();
+        phone.correctSth();
         /*
         CheckB에서 checkSth을 시작합니다.
         CorrectB에서 correctSth을 시작합니다.
