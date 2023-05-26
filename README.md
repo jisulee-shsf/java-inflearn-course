@@ -82,5 +82,5 @@
 ####
 ## Reference
 - [Inflearn] 나도코딩의 자바 기본편
-- [W3Schools] Java
+- 자바의 정석 도서
 ####
