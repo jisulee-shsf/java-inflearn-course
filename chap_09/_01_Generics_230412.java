@@ -2,6 +2,7 @@ package chap_09;
 
 public class _01_Generics_230412 {
     public static void main(String[] args) {
+        // int[] intArray = {1, 2, 3, 4, 5};
         Integer[] intArray = {1, 2, 3, 4, 5}; // 래퍼 클래스(기본형 -> 객체)
         String[] stringArray = {"a", "b", "c", "d", "e"};
 
