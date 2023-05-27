@@ -24,21 +24,25 @@ public class _01_AbstractClass_230406 {
     }
 }
 
-abstract class AbstractClassA { // 추상 클래스
+// 추상 클래스
+abstract class AbstractClassA {
     /* 어떤 기능을 수행할 목적으로 작성했는지 설명 삽입 */
-    public abstract void findSth(); // 추상 메서드
+    // 추상 메서드
+    public abstract void findSth();
 }
 
 class AbstractClassB extends AbstractClassA {
+    // 추상 메서드 구현
     @Override
-    public void findSth() { // 추상 메서드 구현
+    public void findSth() {
         System.out.println("AbstractClassB에서 findSth을 시작합니다.");
     }
 }
 
 class AbstractClassC extends AbstractClassA {
+    // 추상 메서드 구현
     @Override
-    public void findSth() { // 추상 메서드 구현
+    public void findSth() {
         System.out.println("AbstractClassC에서 findSth을 시작합니다.");
     }
 }
