@@ -1,13 +1,13 @@
 package chap_09.order;
 
 public class OrderByName {
-    public String customerName;
+    public String orderName;
 
-    public OrderByName(String customerName) {
-        this.customerName = customerName;
+    public OrderByName(String orderName) {
+        this.orderName = orderName;
     }
 
     public void printOrderInfo() {
-        System.out.println("주문 정보: " + customerName);
+        System.out.println("주문 정보: " + orderName);
     }
 }
