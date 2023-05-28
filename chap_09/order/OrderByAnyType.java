@@ -1,10 +1,9 @@
 package chap_09.order;
 
-// 제네릭 클래스
-public class Order<T> {
+public class OrderByAnyType<T> {
     public T t;
 
-    public Order(T t) {
+    public OrderByAnyType(T t) {
         this.t = t;
     }
 
