@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class _05_LinkedList_230413 {
     public static void main(String[] args) {
-        // Linked List(중복 허용 & 순서 보장)
+        // LinkedList
         LinkedList<String> list = new LinkedList<>();
 
         // 1. add & get
@@ -47,9 +47,9 @@ public class _05_LinkedList_230413 {
 
         // 2. size & remove
         System.out.println(list.size());
-        list.removeFirst(); // 첫번째 값 제거
-        list.remove(2); // 중복 값 제거
-        list.removeLast(); // 마지막 값 제거
+        list.removeFirst(); // 첫 번째 값 제거 -> 가길동
+        list.remove(2); // 중복 제거 -> 다길동
+        list.removeLast(); // 마지막 값 제거 -> 마길동
         System.out.println(list.size());
         /*
         6
@@ -66,7 +66,7 @@ public class _05_LinkedList_230413 {
         */
 
         // 3. indexOf & contains
-        if (list.indexOf("나길동") == 1) {
+        if (list.indexOf("나길동") == 1) { // 다길동
             System.out.println(list.size() + "명 중, 이름 확인");
         } else {
             System.out.println("이름 정보 없음");
@@ -85,15 +85,24 @@ public class _05_LinkedList_230413 {
         */
 
         // 4. set
-        System.out.println(list.get(2));
+        System.out.println(list.get(2)); // 라길동
         list.set(2, "가길동");
-        System.out.println(list.get(2));
+        System.out.println(list.get(2)); // 가길동
         /*
         라길동
         가길동
         */
 
         // 5. sort
+        for (String s : list) {
+            System.out.println(s);
+        }
+        /*
+        나길동
+        다길동
+        가길동
+        */
+
         Collections.sort(list);
         for (String s : list) {
             System.out.println(s);
