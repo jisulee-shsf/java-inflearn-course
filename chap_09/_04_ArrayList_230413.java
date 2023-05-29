@@ -27,7 +27,7 @@ public class _04_ArrayList_230413 {
         마길동
         */
 
-        list.add(2, "다길동");
+        list.add(2, "다길동"); // 중복 허용
         for (String s : list) {
             System.out.println(s);
         }
@@ -42,9 +42,9 @@ public class _04_ArrayList_230413 {
 
         // 2. size & remove
         System.out.println(list.size());
-        list.remove(0); // 첫번째 값 제거
-        list.remove(2); // 중복 값 제거
-        list.remove(list.size() - 1); // 마지막 값 제거
+        list.remove(0); // 첫 번째 값 제거 -> 가길동
+        list.remove(2); // 중복 제거 -> 다길동
+        list.remove(list.size() - 1); // 마지막 값 제거 -> 마길동
         System.out.println(list.size());
         /*
         6
@@ -80,15 +80,24 @@ public class _04_ArrayList_230413 {
         */
 
         // 4. set
-        System.out.println(list.get(2));
+        System.out.println(list.get(2)); // 라길동
         list.set(2, "가길동");
-        System.out.println(list.get(2));
+        System.out.println(list.get(2)); // 가길동
         /*
         라길동
         가길동
         */
 
         // 5. sort
+        for (String s : list) {
+            System.out.println(s);
+        }
+        /*
+        나길동
+        다길동
+        가길동
+        */
+
         Collections.sort(list);
         for (String s : list) {
             System.out.println(s);
