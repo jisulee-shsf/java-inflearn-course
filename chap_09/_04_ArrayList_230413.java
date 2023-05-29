@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class _04_ArrayList_230413 {
     public static void main(String[] args) {
-        // Array List
+        // ArrayList
         ArrayList<String> list = new ArrayList<>();
 
         // 1. add & get
