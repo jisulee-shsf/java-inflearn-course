@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class _04_ArrayList_230413 {
     public static void main(String[] args) {
-        // Array List(데이터 저장 순서 유지 / 중복 허용)
+        // Array List
         ArrayList<String> list = new ArrayList<>();
 
         // 1. add & get
