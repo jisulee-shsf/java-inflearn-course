@@ -4,7 +4,7 @@
 - 첨부된 파일 내에 모든 코드는 학습 내용을 응용해 직접 작성했으며, 학습 진도에 맞춘 세부 contents는 하기와 같습니다.
 ####
 ## Contents
-#### ► [chap_01] 자료형과 변수
+#### ► [chap_01] 자료형 & 변수
 - _01_DataTypes_230324
 - _02_Variables_230324
 - _03_Naming_230324
@@ -76,9 +76,19 @@
 - _16_Reference_230403
 - _17_Final_230406
 ####
-#### ► [chap_08] 추상 클래스와 인터페이스
+#### ► [chap_08] 추상 클래스 & 인터페이스
 - _01_AbstractClass_230406
 - _02_interface_230408
+####
+#### ► [chap_09] 제네릭스 & 컬렉션 프레임웍
+- _01_Generics_230412
+- _02_GenericClass_230412
+- _03_WapperClass_230413
+- _04_ArrayList_230413
+- _05_LinkedList_230413
+- _06_HashSet_230414
+- _07_HashMap_230414
+- _08_Iterator_230414
 ####
 ## Reference
 - [Inflearn] 나도코딩의 자바 기본편
