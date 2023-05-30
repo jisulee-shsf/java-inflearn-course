@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 
 public class _06_HashSet_230414 {
     public static void main(String[] args) {
-        // HashSet(중복 허용 불가 & 순서 보장 불가)
+        // HashSet
         HashSet<String> hashSet = new HashSet<>();
 
         // 1. add
@@ -37,6 +37,16 @@ public class _06_HashSet_230414 {
         4
         */
 
+        for (String s : hashSet) {
+            System.out.println(s);
+        }
+        /*
+        다길동
+        나길동
+        마길동
+        라길동
+        */
+
         // 3. contains
         if (hashSet.contains("가길동")) {
             System.out.println(hashSet.size() + "명 중, 이름 확인");
@@ -58,7 +68,7 @@ public class _06_HashSet_230414 {
         이름 정보 없음
         */
 
-        // LinkedHashSet(중복 허용 불가 & 순서 보장)
+        // LinkedHashSet(데이터 저장 순서 유지)
         HashSet<String> linkedHashSet = new LinkedHashSet<>();
 
         // 1. add
@@ -88,6 +98,16 @@ public class _06_HashSet_230414 {
         /*
         5
         4
+        */
+
+        for (String s : hashSet) {
+            System.out.println(s);
+        }
+        /*
+        다길동
+        나길동
+        마길동
+        라길동
         */
 
         // 3. contains
