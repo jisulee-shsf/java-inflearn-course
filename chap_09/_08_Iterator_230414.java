@@ -4,7 +4,7 @@ import java.util.*;
 
 public class _08_Iterator_230414 {
     public static void main(String[] args) {
-        // Iterator
+        //
         // 1. ArrayList
         ArrayList<String> list = new ArrayList<>();
 
@@ -31,17 +31,17 @@ public class _08_Iterator_230414 {
         마길동
         */
 
-        Iterator<String> iterator1 = list.iterator();
-        while (iterator1.hasNext()) {
-            String s = iterator1.next();
+        Iterator<String> listIterator = list.iterator();
+        while (listIterator.hasNext()) {
+            String s = listIterator.next();
             if (s.contains("이름 없음")) {
-                iterator1.remove();
+                listIterator.remove();
             }
         }
 
-        iterator1 = list.iterator();
-        while (iterator1.hasNext()) {
-            System.out.println(iterator1.next());
+        listIterator = list.iterator();
+        while (listIterator.hasNext()) {
+            System.out.println(listIterator.next());
         }
         /*
         가길동
@@ -75,17 +75,17 @@ public class _08_Iterator_230414 {
         라길동
         */
 
-        Iterator<String> iterator2 = set.iterator();
-        while (iterator2.hasNext()) {
-            String s = iterator2.next();
+        Iterator<String> setIterator = set.iterator();
+        while (setIterator.hasNext()) {
+            String s = setIterator.next();
             if (s.contains("이름 없음")) {
-                iterator2.remove();
+                setIterator.remove();
             }
         }
 
-        iterator2 = set.iterator();
-        while (iterator2.hasNext()) {
-            System.out.println(iterator2.next());
+        setIterator = set.iterator();
+        while (setIterator.hasNext()) {
+            System.out.println(setIterator.next());
         }
         /*
         다길동
@@ -107,8 +107,8 @@ public class _08_Iterator_230414 {
         map.put("라길동", 40);
         map.put("마길동", 50);
 
-        for (String s : map.keySet()) {
-            System.out.println(s);
+        for (String key : map.keySet()) {
+            System.out.println(key);
         }
         /*
         다길동
@@ -118,20 +118,19 @@ public class _08_Iterator_230414 {
         가길동
         라길동
         */
-        System.out.println("테스트");
 
         // 3-1. KeySet
-        Iterator<String> iteratorKey = map.keySet().iterator();
-        while (iteratorKey.hasNext()) {
-            String s = iteratorKey.next();
-            if (s.contains("이름 없음")) {
-                iteratorKey.remove();
+        Iterator<String> keyIterator = map.keySet().iterator();
+        while (keyIterator.hasNext()) {
+            String key = keyIterator.next();
+            if (key.contains("이름 없음")) {
+                keyIterator.remove();
             }
         }
 
-        iteratorKey = map.keySet().iterator();
-        while (iteratorKey.hasNext()) {
-            System.out.println(iteratorKey.next());
+        keyIterator = map.keySet().iterator();
+        while (keyIterator.hasNext()) {
+            System.out.println(keyIterator.next());
         }
         /*
         다길동
@@ -143,6 +142,7 @@ public class _08_Iterator_230414 {
 
         // 3-2. values
         map.clear();
+
         map.put("가길동", 10);
         map.put("이름 없음", 0);
         map.put("이름 없음", 0);
@@ -152,8 +152,8 @@ public class _08_Iterator_230414 {
         map.put("라길동", 40);
         map.put("마길동", 50);
 
-        for (int i : map.values()) {
-            System.out.println(i);
+        for (int value : map.values()) {
+            System.out.println(value);
         }
         /*
         30
@@ -164,17 +164,17 @@ public class _08_Iterator_230414 {
         40
         */
 
-        Iterator<Integer> iteratorValue = map.values().iterator();
-        while (iteratorValue.hasNext()) {
-            int i = iteratorValue.next();
-            if (i < 1) {
-                iteratorValue.remove();
+        Iterator<Integer> valueIterator = map.values().iterator();
+        while (valueIterator.hasNext()) {
+            int value = valueIterator.next();
+            if (value < 1) {
+                valueIterator.remove();
             }
         }
 
-        iteratorValue = map.values().iterator();
-        while (iteratorValue.hasNext()) {
-            System.out.println(iteratorValue.next());
+        valueIterator = map.values().iterator();
+        while (valueIterator.hasNext()) {
+            System.out.println(valueIterator.next());
         }
         /*
         30
@@ -186,34 +186,30 @@ public class _08_Iterator_230414 {
 
         // 3-3. entrySet
         map.clear();
+
         map.put("가길동", 10);
-        map.put("이름 없음", 0);
-        map.put("이름 없음", 0);
         map.put("나길동", 20);
         map.put("다길동", 30);
-        map.put("이름 없음", 0);
         map.put("라길동", 40);
         map.put("마길동", 50);
 
-        for (String s : map.keySet()) {
-            System.out.println("key: " + s + "\tvalue: " + map.get(s));
+        for (String key : map.keySet()) {
+            System.out.println("key: " + key + "\tvalue: " + map.get(key));
         }
         /*
         key: 다길동	value: 30
-        key: 이름 없음	value: 0
         key: 나길동	value: 20
         key: 마길동	value: 50
         key: 가길동	value: 10
         key: 라길동	value: 40
         */
 
-        Iterator<Map.Entry<String, Integer>> iteratorEntrySet = map.entrySet().iterator();
-        while (iteratorEntrySet.hasNext()) {
-            System.out.println(iteratorEntrySet.next());
+        Iterator<Map.Entry<String, Integer>> entrySetIterator = map.entrySet().iterator();
+        while (entrySetIterator.hasNext()) {
+            System.out.println(entrySetIterator.next());
         }
         /*
         다길동=30
-        이름 없음=0
         나길동=20
         마길동=50
         가길동=10
