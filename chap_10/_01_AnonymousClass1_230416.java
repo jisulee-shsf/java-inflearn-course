@@ -5,7 +5,7 @@ public class _01_AnonymousClass1_230416 {
         // 1. 기존
         Shop s1 = new Shop();
         s1.order("운동화");
-        s1.offer();
+        s1.addPoint();
         /*
         운동화 주문이 완료되었습니다.
         상품 구매에 따라 3% 적립이 완료되었습니다.
@@ -19,13 +19,13 @@ public class _01_AnonymousClass1_230416 {
             }
 
             @Override
-            public void offer() {
+            public void addPoint() {
                 System.out.println("VIP 등급에 따라 10% 적립이 완료되었습니다.");
             }
         };
 
         s2.order("운동화");
-        s2.offer();
+        s2.addPoint();
         /*
         VIP 고객님, 운동화 주문이 완료되었습니다.
         VIP 등급에 따라 10% 적립이 완료되었습니다.
@@ -38,7 +38,7 @@ class Shop {
         System.out.println(s + " 주문이 완료되었습니다.");
     }
 
-    public void offer() {
+    public void addPoint() {
         System.out.println("상품 구매에 따라 3% 적립이 완료되었습니다.");
     }
 }
