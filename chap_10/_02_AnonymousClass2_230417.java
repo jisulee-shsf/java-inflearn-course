@@ -2,44 +2,38 @@ package chap_10;
 
 public class _02_AnonymousClass2_230417 {
     public static void main(String[] args) {
-        Branch firstBranch = offerFirstBranchDiscount();
-        firstBranch.sell();
+        SpecialCoffee firstBranchSpecialCoffee = makeFirstBranchSpecialCoffee();
+        firstBranchSpecialCoffee.make();
         /*
-        반갑습니다. 000 1호 지점입니다.
-        구매하신 물품에 5% 할인이 적용되었습니다.
+        1호점 스페셜 커피입니다.
         */
 
-        Branch secondBranch = offerSecondBranchDiscount();
-        secondBranch.sell();
+        SpecialCoffee secondBranchSpecialCoffee = makeSecondBranchSpecialCoffee();
+        secondBranchSpecialCoffee.make();
         /*
-        반갑습니다. 000 2호 지점입니다.
-        구매하신 물품에 15% 할인이 적용되었습니다.
+        2호점 스페셜 커피입니다.
         */
     }
 
-    // 익명 클래스
-    private static Branch offerSecondBranchDiscount() {
-        return new Branch() {
+    public static SpecialCoffee makeSecondBranchSpecialCoffee() {
+        return new SpecialCoffee() {
             @Override
-            public void sell() {
-                System.out.println("반갑습니다. 000 2호 지점입니다.");
-                System.out.println("구매하신 물품에 15% 할인이 적용되었습니다.");
+            public void make() {
+                System.out.println("2호점 스페셜 커피입니다.");
             }
         };
     }
 
-    public static Branch offerFirstBranchDiscount() {
-        return new Branch() {
+    public static SpecialCoffee makeFirstBranchSpecialCoffee() {
+        return new SpecialCoffee() {
             @Override
-            public void sell() {
-                System.out.println("반갑습니다. 000 1호 지점입니다.");
-                System.out.println("구매하신 물품에 5% 할인이 적용되었습니다.");
+            public void make() {
+                System.out.println("1호점 스페셜 커피입니다.");
             }
         };
     }
-
 }
-// 추상 클래스
-abstract class Branch{
-    public abstract void sell();
+
+abstract class SpecialCoffee {
+    public abstract void make();
 }
