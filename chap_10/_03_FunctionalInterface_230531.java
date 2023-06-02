@@ -1,7 +1,6 @@
 package chap_10;
 
-import chap_10.checker.Checkable;
-import chap_10.checker.NumberCheck;
+import chap_10.checker.*;
 
 public class _03_FunctionalInterface_230531 {
     public static void main(String[] args) {
