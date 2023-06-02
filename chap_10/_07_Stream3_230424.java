@@ -5,16 +5,13 @@ import java.util.List;
 import java.util.stream.Stream;
 import java.util.stream.Collectors;
 
-public class _06_Stream3_230424 {
+public class _07_Stream3_230424 {
     public static void main(String[] args) {
-        // 1. 스트림 생성
+        // 1-1. 스트림 생성
         String[] stringArray = {"A+", "A-", "None2", "B+", "B-", "C-", "D-", "None1"};
         Stream<String> stringArrayStream = Arrays.stream(stringArray);
 
-        List<String> stringList = Arrays.asList("A+", "A-", "None2", "B+", "B-", "C-", "D-", "None1");
-        Stream<String> stringListStream = stringList.stream();
-
-        // 2. 스트림 사용
+        // 1-2. 스트림 사용
         stringArrayStream.filter(x -> x.startsWith("A")).forEach(System.out::println);
         /*
         A+
@@ -41,6 +38,11 @@ public class _06_Stream3_230424 {
         D-
         */
 
+        // 2-1. 스트림 생성
+        List<String> stringList = Arrays.asList("A+", "A-", "None2", "B+", "B-", "C-", "D-", "None1");
+        Stream<String> stringListStream = stringList.stream();
+
+        // 2-1. 스트림 사용
         boolean result1 = stringListStream.filter(x -> x.length() <= 3).anyMatch(x -> x.contains("+"));
         System.out.println(result1); // true
 
