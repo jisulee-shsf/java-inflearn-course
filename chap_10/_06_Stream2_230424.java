@@ -3,7 +3,7 @@ package chap_10;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public class _05_Stream2_230424 {
+public class _06_Stream2_230424 {
     public static void main(String[] args) {
         // 1. 스트림 생성
         int[] intArray = {4, 2, 1, 3, 5};
