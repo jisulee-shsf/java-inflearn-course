@@ -31,7 +31,7 @@ public class _04_Finally_230426 {
         프로그램 종료
         */
 
-        // 3. try-finally(예외 처리 생략)
+        // 3. try-finally(catch 생략)
         try {
             System.out.println(100 / 0);
         } finally {
@@ -40,7 +40,7 @@ public class _04_Finally_230426 {
         /*
         프로그램 종료
         Exception in thread "main" java.lang.ArithmeticException: / by zero
-	    at chap_11._04_Finally_230426.main(_04_Finally_230426.java:37)
+	        at chap_11._04_Finally_230426.main(_04_Finally_230426.java:37)
         */
     }
 }
