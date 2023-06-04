@@ -73,9 +73,25 @@ public class _02_Catch_230425 {
         /*
         오류 발생: null
         프로그램 종료
+        java.lang.NullPointerException
+	        at chap_11._02_Catch_230425.main(_02_Catch_230425.java:61)
         */
 
         // 5. 멀티 catch 블럭
+        try {
+            System.out.println(100 / 0);
+        } catch (ArithmeticException | ArrayIndexOutOfBoundsException e) {
+            System.out.println("계산 또는 인덱스 오류 발생");
+        } catch (Exception e) {
+            System.out.println("오류 발생: " + e.getMessage());
+            e.printStackTrace();
+        }
+        System.out.println("프로그램 종료");
+        /*
+        계산 또는 인덱스 오류 발생
+        프로그램 종료
+        */
+
         try {
             int[] intArray = {1, 2, 3, 4, 5};
             intArray[5] = 10;
