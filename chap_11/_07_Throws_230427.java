@@ -13,7 +13,7 @@ public class _07_Throws_230427 {
         }
     }
 
-    public static void writeFile() throws IOException {
+    public static void writeFile() throws IOException { // 메서드를 호출한 곳으로 예외를 던진 경우
         FileWriter writer = new FileWriter("file.txt");
         throw new IOException("오류가 발생했습니다.");
     }
