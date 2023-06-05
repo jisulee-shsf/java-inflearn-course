@@ -14,18 +14,18 @@ public class _03_Join_230428 {
         }
         detect();
         /*
-        detecter1) 1번째 오류 감지 -> RunnableJoin
-        detecter1) 3번째 오류 감지 -> RunnableJoin
-        detecter1) 5번째 오류 감지 -> RunnableJoin
-        detecter1) 7번째 오류 감지 -> RunnableJoin
-        detecter1) 9번째 오류 감지 -> RunnableJoin
-        detecter1) 전체 감지 완료 -> RunnableJoin
-        detecter2) 2번째 오류 감지
-        detecter2) 4번째 오류 감지
-        detecter2) 6번째 오류 감지
-        detecter2) 8번째 오류 감지
-        detecter2) 10번째 오류 감지
-        detecter2) 전체 감지 완료
+        detector1) 1번째 오류 감지 -> RunnableJoin
+        detector1) 3번째 오류 감지 -> RunnableJoin
+        detector1) 5번째 오류 감지 -> RunnableJoin
+        detector1) 7번째 오류 감지 -> RunnableJoin
+        detector1) 9번째 오류 감지 -> RunnableJoin
+        detector1) 전체 감지 완료 -> RunnableJoin
+        detector2) 2번째 오류 감지
+        detector2) 4번째 오류 감지
+        detector2) 6번째 오류 감지
+        detector2) 8번째 오류 감지
+        detector2) 10번째 오류 감지
+        detector2) 전체 감지 완료
         */
 
         thread.start();
@@ -36,18 +36,18 @@ public class _03_Join_230428 {
         }
         detect();
         /*
-        detecter1) 1번째 오류 감지 -> RunnableJoin
-        detecter1) 3번째 오류 감지 -> RunnableJoin
-        detecter1) 5번째 오류 감지 -> RunnableJoin
-        detecter2) 2번째 오류 감지
-        detecter1) 7번째 오류 감지 -> RunnableJoin
-        detecter2) 4번째 오류 감지
-        detecter1) 9번째 오류 감지 -> RunnableJoin
-        detecter2) 6번째 오류 감지
-        detecter1) 전체 감지 완료 -> RunnableJoin
-        detecter2) 8번째 오류 감지
-        detecter2) 10번째 오류 감지
-        detecter2) 전체 감지 완료
+        detector1) 1번째 오류 감지 -> RunnableJoin
+        detector1) 3번째 오류 감지 -> RunnableJoin
+        detector1) 5번째 오류 감지 -> RunnableJoin
+        detector2) 2번째 오류 감지
+        detector1) 7번째 오류 감지 -> RunnableJoin
+        detector2) 4번째 오류 감지
+        detector1) 9번째 오류 감지 -> RunnableJoin
+        detector2) 6번째 오류 감지
+        detector1) 전체 감지 완료 -> RunnableJoin
+        detector2) 8번째 오류 감지
+        detector2) 10번째 오류 감지
+        detector2) 전체 감지 완료
         */
   }
 
@@ -58,8 +58,8 @@ public class _03_Join_230428 {
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            System.out.println("detecter2) " + i + "번째 오류 감지");
+            System.out.println("detector2) " + i + "번째 오류 감지");
         }
-        System.out.println("detecter2) 전체 감지 완료");
+        System.out.println("detector2) 전체 감지 완료");
     }
 }
