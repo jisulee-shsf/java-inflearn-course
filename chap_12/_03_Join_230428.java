@@ -12,20 +12,20 @@ public class _03_Join_230428 {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        detect1();
+        detect();
         /*
-        detect2) 2번째 오류 감지 -> RunnableJoin
-        detect2) 4번째 오류 감지 -> RunnableJoin
-        detect2) 6번째 오류 감지 -> RunnableJoin
-        detect2) 8번째 오류 감지 -> RunnableJoin
-        detect2) 10번째 오류 감지 -> RunnableJoin
-        detect2) 전체 감지 완료 -> RunnableJoin
-        detect1) 1번째 오류 감지
-        detect1) 3번째 오류 감지
-        detect1) 5번째 오류 감지
-        detect1) 7번째 오류 감지
-        detect1) 9번째 오류 감지
-        detect1) 전체 감지 완료
+        detecter1) 1번째 오류 감지 -> RunnableJoin
+        detecter1) 3번째 오류 감지 -> RunnableJoin
+        detecter1) 5번째 오류 감지 -> RunnableJoin
+        detecter1) 7번째 오류 감지 -> RunnableJoin
+        detecter1) 9번째 오류 감지 -> RunnableJoin
+        detecter1) 전체 감지 완료 -> RunnableJoin
+        detecter2) 2번째 오류 감지
+        detecter2) 4번째 오류 감지
+        detecter2) 6번째 오류 감지
+        detecter2) 8번째 오류 감지
+        detecter2) 10번째 오류 감지
+        detecter2) 전체 감지 완료
         */
 
         thread.start();
@@ -34,32 +34,32 @@ public class _03_Join_230428 {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        detect1();
+        detect();
         /*
-        detect2) 2번째 오류 감지 -> RunnableJoin
-        detect2) 4번째 오류 감지 -> RunnableJoin
-        detect2) 6번째 오류 감지 -> RunnableJoin
-        detect1) 1번째 오류 감지
-        detect2) 8번째 오류 감지 -> RunnableJoin
-        detect1) 3번째 오류 감지
-        detect2) 10번째 오류 감지 -> RunnableJoin
-        detect1) 5번째 오류 감지
-        detect2) 전체 감지 완료 -> RunnableJoin
-        detect1) 7번째 오류 감지
-        detect1) 9번째 오류 감지
-        detect1) 전체 감지 완료
+        detecter1) 1번째 오류 감지 -> RunnableJoin
+        detecter1) 3번째 오류 감지 -> RunnableJoin
+        detecter1) 5번째 오류 감지 -> RunnableJoin
+        detecter2) 2번째 오류 감지
+        detecter1) 7번째 오류 감지 -> RunnableJoin
+        detecter2) 4번째 오류 감지
+        detecter1) 9번째 오류 감지 -> RunnableJoin
+        detecter2) 6번째 오류 감지
+        detecter1) 전체 감지 완료 -> RunnableJoin
+        detecter2) 8번째 오류 감지
+        detecter2) 10번째 오류 감지
+        detecter2) 전체 감지 완료
         */
-    }
+  }
 
-    public static void detect1() {
-        for (int i = 1; i <= 10; i += 2) {
+    public static void detect() {
+        for (int i = 2; i <= 10; i += 2) {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            System.out.println("detect1) " + i + "번째 오류 감지");
+            System.out.println("detecter2) " + i + "번째 오류 감지");
         }
-        System.out.println("detect1) 전체 감지 완료");
+        System.out.println("detecter2) 전체 감지 완료");
     }
 }
