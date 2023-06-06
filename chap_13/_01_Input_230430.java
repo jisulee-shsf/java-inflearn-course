@@ -20,7 +20,7 @@ public class _01_Input_230430 {
 
         System.out.println("운동을 시작한 계기를 입력해 주세요.");
         String reason = scanner.next();
-        scanner.nextLine();
+        scanner.nextLine(); // '목적' 삭제
 
         System.out.println("선호하는 운동을 입력해 주세요.");
         String workout = scanner.nextLine();
