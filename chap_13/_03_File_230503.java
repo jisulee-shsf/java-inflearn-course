@@ -19,7 +19,7 @@ public class _03_File_230503 {
         /*
         파일 이름: text.txt
         파일 경로: /Users/jisulee/workspace/java/text.txt
-        파일 크기: 0
+        파일 크기: 5 -> 12345
         */
     }
 }
