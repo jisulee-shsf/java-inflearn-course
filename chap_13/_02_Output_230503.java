@@ -39,23 +39,23 @@ public class _02_Output_230503 {
         System.out.printf("%-+6.2f%n", -Math.PI); // -3.14_
         System.out.printf("%-6.2f%n", -Math.PI); // -3.14_
 
-        // 3. 문자열
+        // 3-1. 문자열
         System.out.printf("%s%n", "string"); // string
         System.out.printf("%.2s%n", "string"); // st
 
         System.out.printf("%4.2s%n", "string"); // __st
         System.out.printf("%-4.2s%n", "string"); // st__
 
-        // 4. 활용
-        System.out.println("str     int   float");
-        System.out.printf("%-6s %4d %8.2f%n", "Java1", 123, 123.123123); // Java1_____123___123.12
-        System.out.printf("%-6s %4d %8.2f%n", "Java2", 12, 123.12); // Java2____12___123.12
-        System.out.printf("%-6s %4d %8.2f%n", "Java3", 1, 123.1); // Java3_____1___123.10
+        // 3-2. 문자열 활용
+        System.out.println("str    int   float");
+        System.out.printf("%-5s %4d %7.2f%n", "Java1", 123, 123.123123); // Java1__123__123.12
+        System.out.printf("%-5s %4d %7.2f%n", "Java2", 12, 123.12); // Java2___12__123.12
+        System.out.printf("%-5s %4d %7.2f%n", "Java3", 1, 123.1); // Java3____1__123.10
         /*
-        str     int   float
-        Java1   123   123.12
-        Java2    12   123.12
-        Java3     1   123.10
+        str    int   float
+        Java1  123  123.12
+        Java2   12  123.12
+        Java3    1  123.10
         */
     }
 }
