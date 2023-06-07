@@ -2,7 +2,7 @@ package chap_13;
 
 import java.io.File;
 
-public class _05_FileAndFolder_230504 {
+public class  _05_FileAndFolder_230504 {
     public static void main(String[] args) {
         File option1 = new File(".");
         System.out.println(option1.getAbsolutePath());
@@ -41,7 +41,7 @@ public class _05_FileAndFolder_230504 {
             파일: _02_Output_230503.java
             파일: _03_File_230503.java
             파일: _04_Folder_230503.java
-            파일: _05_FolderAndFile_230503.java
+            파일: _05_FolderAndFile_230504.java
             */
         }
     }
