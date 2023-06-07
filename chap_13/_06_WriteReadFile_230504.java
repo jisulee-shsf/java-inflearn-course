@@ -6,8 +6,8 @@ public class _06_WriteReadFile_230504 {
     public static void main(String[] args) throws IOException {
         // FileWriter fileWriter = new FileWriter("text.txt");
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("test.txt", true))) {
-//            bufferedWriter.write("1. 첫 번째 입력입니다.");
-//            bufferedWriter.newLine();
+            bufferedWriter.write("1. 첫 번째 입력입니다.");
+            bufferedWriter.newLine();
             bufferedWriter.write("2. 두 번째 입력입니다.");
             bufferedWriter.newLine();
         } catch (IOException e) {
