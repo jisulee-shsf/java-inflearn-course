@@ -11,11 +11,9 @@
 ####
 #### ► [_04_Finally_230426]
 - 예외 발생 여부와 관계없이 항상 수행되어야 할 코드를 포함할 목적으로 사용하는 finally 블럭 실습
-- 💡 finally블럭은 ty-catch문의 마지막에 위치한다.
+- 💡 finally블럭은 try-catch문의 마지막에 위치한다.
 - 💡 예외가 발생한 경우엔 'try -> catch -> finally', 예외가 발생하지 않은 경우엔 'try -> finally' 순으로 실행된다.
 ####
 #### ► [_05_TryWithResources_230426]
-- 예외 발생 여부와 관계없이 항상 수행되어야 할 코드를 포함할 목적으로 사용하는 finally 블럭 실습
-- 💡 finally블럭은 try-catch문의 마지막에 위치한다.
-- 💡 예외가 발생한 경우엔 'try -> catch -> finally', 예외가 발생하지 않은 경우엔 'try -> finally' 순으로 실행된다.
+- 
 ####
