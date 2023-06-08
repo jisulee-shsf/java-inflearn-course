@@ -77,7 +77,7 @@ public class _02_Catch_230425 {
 	        at chap_11._02_Catch_230425.main(_02_Catch_230425.java:61)
         */
 
-        // 5. 멀티 catch 블럭
+        // 5. 멀티 catch블럭
         try {
             System.out.println(100 / 0);
         } catch (ArithmeticException | ArrayIndexOutOfBoundsException e) {
