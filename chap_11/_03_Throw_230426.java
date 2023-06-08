@@ -5,7 +5,9 @@ public class _03_Throw_230426 {
         try {
             int code = 1111;
             if (code != 1234) {
-                throw new Exception("입력하신 코드에 오류가 발생했습니다.");
+                Exception e = new Exception("입력하신 코드에 오류가 발생했습니다.");
+                throw e;
+                // throw new Exception("입력하신 코드에 오류가 발생했습니다.");
             } else {
                 System.out.println("프로그램을 실행합니다.");
             }
