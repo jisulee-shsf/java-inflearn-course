@@ -13,6 +13,6 @@
 - 파일과 디렉토리를 다룰 수 있는 File 클래스 실습
 ####
 #### ► [_06_WriteReadFile_230504]
-- 버퍼를 이용해 입출력의 효율을 높이는 BufferedReader & BufferedWriter 실습
+- 버퍼를 이용해 입출력 효율을 높이는 BufferedReader & BufferedWriter 실습
 - 버퍼(buffer): 데이터를 어느 한쪽에서 다른 쪽으로 전달하는 동안 일시적으로 해당 데이터를 보관하는 메모리 영역
 ####
